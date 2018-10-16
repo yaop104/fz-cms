@@ -7,9 +7,9 @@ import com.baomidou.mybatisplus.generator.config.rules.DbType;
 public class TyqxCmsGenerator {
 
     // 根据命名规范，只修改此常量值即可
-    private static String MODULE = "tyqxcms";
-    private static String TABLE_PREFIX = "sys_";
-    private static String PARENT_PACKAGE_NAME = "com.xieke.test";
+    private static String MODULE = "fzcms";
+    private static String TABLE_PREFIX = "fz_";
+    private static String PARENT_PACKAGE_NAME = "com.fangzhi.yao";
 
     private static String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     private static String JDBC_URL = "jdbc:mysql://127.0.0.1:3306/test2?useUnicode=true&amp;characterEncoding=UTF-8&amp;tinyInt1isBit=false";
@@ -43,7 +43,7 @@ public class TyqxCmsGenerator {
         defaultGenerator.setDataSource(dsc);
         defaultGenerator.setPackageInfo(pc);
 //        defaultGenerator.setIncludeTables(TABLE_PREFIX,"sys_permission","sys_role","sys_user","sys_menu_type");
-        defaultGenerator.setIncludeTables("oauth2","oauth2_client");
+        defaultGenerator.setIncludeTables(TABLE_PREFIX,"fz_send_message");
 
         // 生成API
         defaultGenerator.setOutputDir(OUTPUT_API_DIR);

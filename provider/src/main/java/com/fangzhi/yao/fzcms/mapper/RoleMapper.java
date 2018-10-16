@@ -2,7 +2,6 @@ package com.fangzhi.yao.fzcms.mapper;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.fangzhi.yao.fzcms.entity.Role;
-import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>
@@ -12,7 +11,6 @@ import org.apache.ibatis.annotations.Mapper;
  * @author Auto Generator
  * @since 2018-07-16
  */
-@Mapper
 public interface RoleMapper extends BaseMapper<Role> {
 
 }

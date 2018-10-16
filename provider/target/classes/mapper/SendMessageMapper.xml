@@ -1,0 +1,27 @@
+<?Mapper version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fangzhi.yao.fzcms.mapper.SendMessageMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.fangzhi.yao.fzcms.entity.SendMessage">
+        <id column="fz_send_unid" property="fzSendUnid" />
+        <result column="fz_company_code" property="fzCompanyCode" />
+        <result column="fz_send_time" property="fzSendTime" />
+        <result column="fz_send_state" property="fzSendState" />
+        <result column="fz_send_code" property="fzSendCode" />
+        <result column="fz_send_mobile" property="fzSendMobile" />
+        <result column="fz_send_type" property="fzSendType" />
+    </resultMap>
+
+    <select id="selectLastCode" parameterType="com.fangzhi.yao.fzcms.entity.SendMessage" resultMap="BaseResultMap">
+        SELECT * FROM fz_send_message
+        WHERE fz_send_mobile = #{fzSendMobile}
+        AND fz_send_code = #{fzSendCode}
+        AND fz_send_type = #{fzSendType}
+        AND fz_company_code = #{fzCompanyCode}
+        AND fz_send_state = '2'
+        AND fz_send_time BETWEEN SYSDATE()-INTERVAL 900 SECOND AND SYSDATE()
+        LIMIT 1
+    </select>
+
+</mapper>

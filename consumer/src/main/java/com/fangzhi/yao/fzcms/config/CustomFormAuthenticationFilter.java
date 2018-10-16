@@ -1,12 +1,12 @@
 package com.fangzhi.yao.fzcms.config;
 
+import com.google.code.kaptcha.Constants;
+import org.apache.shiro.web.filter.authc.FormAuthenticationFilter;
+
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
-
-import com.google.code.kaptcha.Constants;
-import org.apache.shiro.web.filter.authc.FormAuthenticationFilter;
 
 /**
  * 自定义验证码校验过滤器

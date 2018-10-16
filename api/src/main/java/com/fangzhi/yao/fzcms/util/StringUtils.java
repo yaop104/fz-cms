@@ -1,13 +1,25 @@
 package com.fangzhi.yao.fzcms.util;
 
 import java.io.UnsupportedEncodingException;
+import java.util.Collection;
+import java.util.Map;
+import java.util.Random;
 
 /**
  * 字符串操作工具类
  * 
- * @author jun hu
+ * @author yao
  */
 public class StringUtils {
+
+
+	public static boolean isEmpty(Collection collection) {
+		return null == collection || collection.isEmpty();
+	}
+
+	public static boolean isEmpty(Map map) {
+		return null == map || map.isEmpty();
+	}
 
 	/**
 	 * 首字母变小写
@@ -318,7 +330,7 @@ public class StringUtils {
 	/**
 	 * 转换为字符串
 	 * 
-	 * @param str
+	 * @param bytes
 	 * @return
 	 */
 	public static String toString(byte[] bytes) {
@@ -345,6 +357,23 @@ public class StringUtils {
 		} else {
 			return null;
 		}
+	}
+
+	/**
+	 * 获得0-9的随机数字符串
+	 *
+	 * @param length
+	 *            返回字符串的长度
+	 * @return String
+	 */
+	public static String getRandomNumber(int length) {
+		Random random = new Random();
+		StringBuffer buffer = new StringBuffer();
+
+		for (int i = 0; i < length; i++) {
+			buffer.append(random.nextInt(10));
+		}
+		return buffer.toString();
 	}
 
 }

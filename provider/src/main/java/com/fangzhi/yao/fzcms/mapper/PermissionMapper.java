@@ -3,7 +3,6 @@ package com.fangzhi.yao.fzcms.mapper;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.fangzhi.yao.fzcms.dto.PermissionInfo;
 import com.fangzhi.yao.fzcms.entity.Permission;
-import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
@@ -15,7 +14,6 @@ import java.util.List;
  * @author Auto Generator
  * @since 2018-07-16
  */
-@Mapper
 public interface PermissionMapper extends BaseMapper<Permission> {
 
     List<PermissionInfo> allPermissionInfo();

@@ -4,16 +4,18 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.fangzhi.yao.fzcms.dto.ResultInfo;
 import com.fangzhi.yao.fzcms.dto.UserInfo;
 import com.fangzhi.yao.fzcms.dto.token.PrintAccessToken;
+import com.fangzhi.yao.fzcms.dto.user.UserInfoDTO;
+import com.fangzhi.yao.fzcms.entity.SendMessage;
 import com.fangzhi.yao.fzcms.ex.BusinessException;
+import com.fangzhi.yao.fzcms.service.ISendMessageService;
 import com.fangzhi.yao.fzcms.service.IUserService;
 import com.fangzhi.yao.fzcms.util.JwtUtil;
 import com.fangzhi.yao.fzcms.util.PasswordEncoder;
-import org.apache.shiro.SecurityUtils;
+import com.fangzhi.yao.fzcms.validator.user.UserValidator;
 import org.apache.shiro.authz.annotation.Logical;
 import org.apache.shiro.authz.annotation.RequiresAuthentication;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.authz.annotation.RequiresRoles;
-import org.apache.shiro.subject.Subject;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -24,24 +26,55 @@ public class ApiHomeController extends BaseController{
 
     @Reference(version = "1.0.0")
     private IUserService iUserService;
+    @Reference(version = "1.0.0")
+    private ISendMessageService iSendMessageService;
+
+    @RequestMapping("/loginCode")
+    public ResultInfo loginWithCode(@RequestBody UserInfoDTO userInfoDTO) {
+        //验证
+        UserValidator.userInfoDTOParamCode(userInfoDTO);
+        //验证码
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.setFzSendType("1");
+        sendMessage.setFzCompanyCode("0001");
+        sendMessage.setFzSendMobile(userInfoDTO.getUsername());
+        sendMessage.setFzSendCode(userInfoDTO.getSendCode());
+        String flag = iSendMessageService.selectLastCode(sendMessage);
+
+        if(!"1".equals(flag)){
+            return respMessage("1", "无效验证码，请重新输入！");
+        }
+
+        //账号密码
+        UserInfo userInfo = iUserService.findUserInfo(userInfoDTO.getUsername());
+        if(userInfo != null){
+            String token = JwtUtil.sign(userInfoDTO.getUsername(), userInfo.getPassWord());
+            Date expireTime = JwtUtil.getExpireTime(token);
+            return new ResultInfo("0", "登录成功", new PrintAccessToken(token, expireTime.getTime()));
+        }else {
+            throw new BusinessException("1", "账号不正确");
+        }
+
+    }
 
     @RequestMapping("/login")
-    public ResultInfo login(@RequestParam("username") String username,
-                            @RequestParam("password") String password) {
-        UserInfo userInfo = iUserService.findUserInfo(username);
-        if (PasswordEncoder.checkPassWord(userInfo.getPassWord(), userInfo.getCredentialsSalt(), password)) {
-            String token = JwtUtil.sign(username, userInfo.getPassWord());
+    public ResultInfo loginWithPassword(@RequestBody UserInfoDTO userInfoDTO) {
+        //验证
+        UserValidator.userInfoDTOParam(userInfoDTO);
+        //账号密码
+        UserInfo userInfo = iUserService.findUserInfo(userInfoDTO.getUsername());
+        if (PasswordEncoder.checkPassWord(userInfo.getPassWord(), userInfo.getCredentialsSalt(), userInfoDTO.getPassword())) {
+            String token = JwtUtil.sign(userInfoDTO.getUsername(), userInfo.getPassWord());
             Date expireTime = JwtUtil.getExpireTime(token);
             return new ResultInfo("0", "登录成功", new PrintAccessToken(token, expireTime.getTime()));
         } else {
-            throw new BusinessException("-1", "账号密码不正确");
+            throw new BusinessException("1", "账号密码不正确");
         }
     }
 
     @GetMapping("/article")
     public ResultInfo article() {
-        Subject subject = SecurityUtils.getSubject();
-        if (subject.isAuthenticated()) {
+        if (getUserLoginStatus()) {
             return new ResultInfo("0", "You are already logged in", null);
         } else {
             return new ResultInfo("0", "You are guest", null);
