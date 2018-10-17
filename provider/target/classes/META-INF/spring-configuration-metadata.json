@@ -7,6 +7,11 @@
       "type": "com.fangzhi.yao.fzcms.config.third.FzQiniu"
     },
     {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzPush",
+      "name": "push.jiguang",
+      "type": "com.fangzhi.yao.fzcms.config.third.FzPush"
+    },
+    {
       "sourceType": "com.fangzhi.yao.fzcms.config.third.FzSms",
       "name": "sms.message",
       "type": "com.fangzhi.yao.fzcms.config.third.FzSms"
@@ -26,6 +31,16 @@
     {
       "sourceType": "com.fangzhi.yao.fzcms.config.third.FzQiniu",
       "name": "pic.qiniu.secret-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzPush",
+      "name": "push.jiguang.app-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzPush",
+      "name": "push.jiguang.master-secret",
       "type": "java.lang.String"
     },
     {
