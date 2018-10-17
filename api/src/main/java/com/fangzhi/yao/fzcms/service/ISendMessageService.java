@@ -18,4 +18,6 @@ public interface ISendMessageService extends IService<SendMessage> {
 
     String selectLastCode(SendMessage sendMessage);
 
+    String getSimpleUploadToken();
+
 }

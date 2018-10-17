@@ -7,6 +7,7 @@ import com.fangzhi.yao.fzcms.entity.SendMessage;
 import com.fangzhi.yao.fzcms.mapper.SendMessageMapper;
 import com.fangzhi.yao.fzcms.repo.SendMessageRepo;
 import com.fangzhi.yao.fzcms.service.ISendMessageService;
+import com.fangzhi.yao.fzcms.thirdparty.qiniu.impl.QiniuServiceImpl;
 import com.fangzhi.yao.fzcms.thirdparty.sms.impl.SendMessageImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -23,6 +24,8 @@ public class SendMessageServiceImpl extends ServiceImpl<SendMessageMapper, SendM
     @Autowired
     private SendMessageImpl smsSendMessageService;
     @Autowired
+    QiniuServiceImpl qiniuService;
+    @Autowired
     SendMessageRepo sendMessageRepo;
 
     @Override
@@ -33,5 +36,10 @@ public class SendMessageServiceImpl extends ServiceImpl<SendMessageMapper, SendM
     @Override
     public String selectLastCode(SendMessage sendMessage) {
         return sendMessageRepo.selectLastCode(sendMessage);
+    }
+
+    @Override
+    public String getSimpleUploadToken() {
+        return qiniuService.getSimpleUploadToken();
     }
 }

@@ -2,12 +2,32 @@
   "hints": [],
   "groups": [
     {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzQiniu",
+      "name": "pic.qiniu",
+      "type": "com.fangzhi.yao.fzcms.config.third.FzQiniu"
+    },
+    {
       "sourceType": "com.fangzhi.yao.fzcms.config.third.FzSms",
       "name": "sms.message",
       "type": "com.fangzhi.yao.fzcms.config.third.FzSms"
     }
   ],
   "properties": [
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzQiniu",
+      "name": "pic.qiniu.access-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzQiniu",
+      "name": "pic.qiniu.bucket",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzQiniu",
+      "name": "pic.qiniu.secret-key",
+      "type": "java.lang.String"
+    },
     {
       "sourceType": "com.fangzhi.yao.fzcms.config.third.FzSms",
       "name": "sms.message.appcode",
