@@ -2,7 +2,7 @@
 <html xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
 <head>
 	<meta charset="utf-8">
-	<title>公司中心</title>
+	<title>字典中心</title>
 	<meta name="renderer" content="webkit">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -18,44 +18,37 @@
 		<form class="layui-form">
 			<div class="layui-inline">
 				<div class="layui-input-inline">
-					<input type="text" class="layui-input fzCompanyName" placeholder="请输入公司名称" />
+					<input type="text" class="layui-input dicName" placeholder="请输入名称" />
 				</div>
 				<div class="layui-input-inline">
-					<input type="text" class="layui-input fzCompanyMobile" placeholder="请输入联系号码" />
-				</div>
-				<div class="layui-input-inline">
-					<input type="text" class="layui-input fzCompanyPerson" placeholder="请输入联系人" />
-				</div>
-				<div class="layui-input-inline">
-					<select class="fzCompanyStatus">
-						<option value="">请选择公司状态</option>
-						<option value="1">启用</option>
-						<option value="2">注销</option>
-						<option value="3">已过期</option>
+					<select class="dicType">
+						<option value="">请选择类型</option>
+						<option value="1">大类</option>
+						<option value="2">小类</option>
 					</select>
 				</div>
 				<a class="layui-btn search_btn" data-type="reload">搜索</a>
 			</div>
-			<shiro:hasPermission name="company:add">
+			<shiro:hasPermission name="dictionary:add">
 				<div class="layui-inline">
 					<a class="layui-btn layui-btn-normal add_btn">添加</a>
 				</div>
 			</shiro:hasPermission>
-			<shiro:hasPermission name="company:edit">
+			<shiro:hasPermission name="dictionary:edit">
 				<div class="layui-inline">
 					<a class="layui-btn layui-btn-warm layui-btn-normal edit_btn">编辑</a>
 				</div>
 			</shiro:hasPermission>
-			<shiro:hasPermission name="company:del">
+			<shiro:hasPermission name="dictionary:del">
 				<div class="layui-inline">
 					<a class="layui-btn layui-btn-danger layui-btn-normal delAll_btn">删除</a>
 				</div>
 			</shiro:hasPermission>
 		</form>
 	</blockquote>
-	<table id="companyList" lay-filter="companyList"></table>
+	<table id="dictionaryList" lay-filter="dictionaryList"></table>
 </form>
 <script type="text/javascript" src="/static/layui/layui.js"></script>
-<script type="text/javascript" src="/static/js/company/list.js"></script>
+<script type="text/javascript" src="/static/js/dictionary/list.js"></script>
 </body>
 </html>

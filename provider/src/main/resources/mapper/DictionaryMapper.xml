@@ -1,0 +1,18 @@
+<?Mapper version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fangzhi.yao.fzcms.mapper.DictionaryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.fangzhi.yao.fzcms.entity.Dictionary">
+        <id column="dic_id" property="dicId" />
+        <result column="dic_type" property="dicType" />
+        <result column="dic_ctime" property="dicCtime" />
+        <result column="dic_utime" property="dicUtime" />
+        <result column="dic_admin" property="dicAdmin" />
+        <result column="dic_delete" property="dicDelete" />
+        <result column="dic_parent" property="dicParent" />
+        <result column="dic_name" property="dicName" />
+        <result column="dic_company_code" property="dicCompanyCode" />
+    </resultMap>
+
+</mapper>

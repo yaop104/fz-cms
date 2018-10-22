@@ -109,7 +109,6 @@ layui.use(['form','layer','table'],function(){
                     idArr : idArr.toString()
                 },function(data){
                     layer.close(index);
-                    alert(JSON.stringify(data));
                     tableIns.reload();
                     if (data.data){
                         layer.msg("删除成功！");

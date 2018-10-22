@@ -8,8 +8,8 @@ public class TyqxCmsGenerator {
 
     // 根据命名规范，只修改此常量值即可
     private static String MODULE = "fzcms";
-    private static String TABLE_PREFIX = "fz_";
-//    private static String TABLE_PREFIX = "sys_";
+//    private static String TABLE_PREFIX = "fz_";
+    private static String TABLE_PREFIX = "sys_";
     private static String PARENT_PACKAGE_NAME = "com.fangzhi.yao";
 
     private static String JDBC_DRIVER = "com.mysql.jdbc.Driver";
@@ -45,7 +45,7 @@ public class TyqxCmsGenerator {
         defaultGenerator.setDataSource(dsc);
         defaultGenerator.setPackageInfo(pc);
 //        defaultGenerator.setIncludeTables(TABLE_PREFIX,"sys_permission","sys_role","sys_user","sys_menu_type");
-        defaultGenerator.setIncludeTables(TABLE_PREFIX,"fz_company");
+        defaultGenerator.setIncludeTables(TABLE_PREFIX,"sys_dictionary");
 
         // 生成API
         defaultGenerator.setOutputDir(OUTPUT_API_DIR);
