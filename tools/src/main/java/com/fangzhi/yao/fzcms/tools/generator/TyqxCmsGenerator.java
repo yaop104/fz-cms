@@ -9,6 +9,7 @@ public class TyqxCmsGenerator {
     // 根据命名规范，只修改此常量值即可
     private static String MODULE = "fzcms";
     private static String TABLE_PREFIX = "fz_";
+//    private static String TABLE_PREFIX = "sys_";
     private static String PARENT_PACKAGE_NAME = "com.fangzhi.yao";
 
     private static String JDBC_DRIVER = "com.mysql.jdbc.Driver";
@@ -19,7 +20,8 @@ public class TyqxCmsGenerator {
     private static String OUTPUT_API_DIR = "api";
     private static String OUTPUT_SERVICE_DIR = "provider";
 //    private static String OUTPUT_CONTROLLER_DIR = "\\Users\\yaoping\\Documents\\study\\java\\tyqx-cms\\consumer\\src\\main\\java";
-    private static String OUTPUT_CONTROLLER_DIR = "app";
+//    private static String OUTPUT_CONTROLLER_DIR = "app";
+    private static String OUTPUT_CONTROLLER_DIR = "consumer";
 
     /**
      * 自动代码生成
@@ -43,7 +45,7 @@ public class TyqxCmsGenerator {
         defaultGenerator.setDataSource(dsc);
         defaultGenerator.setPackageInfo(pc);
 //        defaultGenerator.setIncludeTables(TABLE_PREFIX,"sys_permission","sys_role","sys_user","sys_menu_type");
-        defaultGenerator.setIncludeTables(TABLE_PREFIX,"fz_send_message");
+        defaultGenerator.setIncludeTables(TABLE_PREFIX,"fz_company");
 
         // 生成API
         defaultGenerator.setOutputDir(OUTPUT_API_DIR);
