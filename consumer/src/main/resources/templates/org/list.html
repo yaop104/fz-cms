@@ -2,7 +2,7 @@
 <html xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
 <head>
 	<meta charset="utf-8">
-	<title>权限中心</title>
+	<title>组织中心</title>
 	<meta name="renderer" content="webkit">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -16,20 +16,20 @@
 <form class="layui-form">
 	<blockquote class="layui-elem-quote quoteBox">
 		<form class="layui-form">
-			<div class="layui-inline" shiro:hasPermission="permission:add">
+			<div class="layui-inline" shiro:hasPermission="org:add">
 				<a class="layui-btn layui-btn-normal add_btn">添加</a>
 			</div>
-			<div class="layui-inline" shiro:hasPermission="permission:edit">
+			<div class="layui-inline" shiro:hasPermission="org:edit">
 				<a class="layui-btn layui-btn-warm layui-btn-normal edit_btn">编辑</a>
 			</div>
-			<div class="layui-inline" shiro:hasPermission="permission:del">
+			<div class="layui-inline" shiro:hasPermission="org:del">
 				<a class="layui-btn layui-btn-danger layui-btn-normal delAll_btn">删除</a>
 			</div>
 		</form>
 	</blockquote>
-	<table id="auth-table" class="layui-table" lay-filter="auth-table"></table>
+	<table id="org-table" class="layui-table" lay-filter="org-table"></table>
 </form>
 <script type="text/javascript" src="/static/layui/layui.js"></script>
-<script type="text/javascript" src="/static/js/permission/list.js"></script>
+<script type="text/javascript" src="/static/js/org/list.js"></script>
 </body>
 </html>

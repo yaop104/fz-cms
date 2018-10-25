@@ -52,7 +52,7 @@ public class SendMessageImpl implements SmsSendMessageService {
 			sendMessageRepo.insert(sendMessage);
 
 			//发送短信
-//			sendMessageInfo(smsMessage.getPhone(), smsMessage.getSmsCode());
+			sendMessageInfo(smsMessage.getPhone(), smsMessage.getSmsCode());
 
 		} catch (Exception e) {
 			log.error("sendMessage ERROR : " , e);
