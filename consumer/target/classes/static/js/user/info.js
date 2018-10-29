@@ -14,6 +14,32 @@ layui.use(['form','layer'],function(){
         form.render('select');//刷新select选择框渲染
     });
 
+    $.post("/org/typeSelectData",function(data){
+        var sysOrgTypeList = data.data;
+        sysOrgTypeList.forEach(function(e){
+            $("#sysOrgTypeSelect").append("<option value='"+e.code+"'>"+e.name+"</option>");
+        });
+        //编辑
+        if($("#userCompanyType").val()!==""){
+            $("#sysOrgTypeSelect").val($("#userCompanyType").val());//默认选中
+            getParentSelectData($("#userCompanyType").val());
+        }
+        form.render('select');//重新渲染
+    });
+
+    form.on('select(userCompanyType)', function(data){
+        if(data.value == 1){
+            $("#sysOrgCodeSelect").attr("disabled","disabled");
+            $("#sysOrgCodeSelect").removeAttr("lay-verify");
+            form.render('select');//重新渲染
+        }else{
+            $("#sysOrgCodeSelect").removeAttr("disabled");
+            $("#sysOrgCodeSelect").attr("lay-verify","required");
+            form.render('select');//重新渲染
+            getParentSelectData(data.value);
+        }
+    });
+
     //添加验证规则
     form.verify({
         newPwd : function(value, item){
@@ -58,5 +84,22 @@ layui.use(['form','layer'],function(){
         }
         return false;
     })
+
+
+    function getParentSelectData(sysOrgType){
+        $.post("/org/parentSelectData",{sysOrgType: sysOrgType},function(data){
+            var parentSelectList = data.data;
+            $("#sysOrgCodeSelect").empty();//清空下拉列表
+            $("#sysOrgCodeSelect").append("<option value=''>请选择权限</option>");
+            parentSelectList.forEach(function(e){
+                $("#sysOrgCodeSelect").append("<option value='"+e.sysOrgCode+"'>"+e.sysOrgName+"</option>");
+            });
+            //编辑
+            if($("#userCompanyCode").val()!==""){
+                $("#sysOrgCodeSelect").val($("#userCompanyCode").val());//默认选中
+            }
+            form.render('select');//重新渲染
+        });
+    }
 
 })

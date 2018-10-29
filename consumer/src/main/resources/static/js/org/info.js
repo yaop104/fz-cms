@@ -42,10 +42,6 @@ layui.use(['form','layer'],function(){
             if($("#sysOrgPcode").val()!==""){
                 $("#sysOrgPcodeSelect").val($("#sysOrgPcode").val());//默认选中
                 $("#sysOrgPcodeSelect").attr("disabled","disabled");
-                if(sysOrgType!==1){
-                    $("#url").attr("disabled","disabled");
-                    $("#url").removeAttr("lay-verify");
-                }
             }
             form.render('select');//重新渲染
         });

@@ -13,6 +13,10 @@
         <result column="state" property="state" />
         <result column="update_time" property="updateTime" />
         <result column="create_time" property="createTime" />
+        <result column="user_admin" property="userAdmin" />
+        <result column="user_company_code" property="userCompanyCode" />
+        <result column="user_company_type" property="userCompanyType" />
+        <result column="user_delete" property="userDelete" />
     </resultMap>
     
     <resultMap id="userInfoResultMap" type="com.fangzhi.yao.fzcms.dto.UserInfo" extends="BaseResultMap">

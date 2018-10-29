@@ -45,7 +45,7 @@ public class TyqxCmsGenerator {
         defaultGenerator.setDataSource(dsc);
         defaultGenerator.setPackageInfo(pc);
 //        defaultGenerator.setIncludeTables(TABLE_PREFIX,"sys_permission","sys_role","sys_user","sys_menu_type");
-        defaultGenerator.setIncludeTables(TABLE_PREFIX,"sys_org");
+        defaultGenerator.setIncludeTables(TABLE_PREFIX,"sys_user");
 
         // 生成API
         defaultGenerator.setOutputDir(OUTPUT_API_DIR);

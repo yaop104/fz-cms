@@ -69,9 +69,9 @@ layui.use(['form','layer','table'],function(){
 
     //添加用户
     function addUser(edit){
-        var h = "440px";
+        var h = "540px";
         if (edit){
-            h = "280px";
+            h = "380px";
         }
         layui.layer.open({
             title : "添加用户",
@@ -88,6 +88,8 @@ layui.use(['form','layer','table'],function(){
                     body.find("#name").val(edit.name);
                     body.find("#roleId").val(edit.roleId);
                     body.find("#stateSelect").val(edit.state);
+                    body.find("#userCompanyType").val(edit.userCompanyType);
+                    body.find("#userCompanyCode").val(edit.userCompanyCode);
                     form.render();
                 }
                 setTimeout(function(){

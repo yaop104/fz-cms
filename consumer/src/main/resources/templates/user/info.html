@@ -16,10 +16,28 @@
 <form class="layui-form linksAdd">
 	<input type="hidden" value="" id="id" name="id">
 	<input type="hidden" value="" id="roleId">
+	<input type="hidden" value="" id="userCompanyType">
+	<input type="hidden" value="" id="userCompanyCode">
 	<div class="layui-form-item">
 		<label class="layui-form-label">用户姓名</label>
 		<div class="layui-input-block">
 			<input type="text" class="layui-input" id="name" name="name" lay-verify="required" placeholder="请输入用户名">
+		</div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">组织类型</label>
+		<div class="layui-input-block">
+			<select name="userCompanyType" id="sysOrgTypeSelect" lay-filter="userCompanyType" lay-verify="required">
+				<option value="">请选择组织类型</option>
+			</select>
+		</div>
+	</div>
+	<div class="layui-form-item">
+		<label class="layui-form-label">所属组织</label>
+		<div class="layui-input-block">
+			<select name="userCompanyCode" id="sysOrgCodeSelect" lay-verify="required">
+				<option value="">请选择组织</option>
+			</select>
 		</div>
 	</div>
 	<div class="layui-form-item">

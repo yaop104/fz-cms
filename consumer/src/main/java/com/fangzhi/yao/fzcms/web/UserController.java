@@ -96,6 +96,8 @@ public class UserController extends BaseController{
         us.setName(user.getName());
         us.setRoleId(user.getRoleId());
         us.setState(user.getState());
+        us.setUserCompanyType(user.getUserCompanyType());
+        us.setUserCompanyCode(user.getUserCompanyCode());
         boolean b = iUserService.updateById(us);
         return new ResultInfo<>(b);
     }
