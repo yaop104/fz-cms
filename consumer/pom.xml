@@ -27,6 +27,7 @@
         <java.version>1.8</java.version>
         <jdk.version>1.8</jdk.version>
         <springboot.version>1.5.9.RELEASE</springboot.version>
+        <project.release.version>0.1-SNAPSHOT</project.release.version>
     </properties>
 
 
@@ -48,6 +49,10 @@
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-core</artifactId>
                 </exclusion>
             </exclusions>
             <version>${springboot.version}</version>
