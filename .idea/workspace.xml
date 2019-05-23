@@ -87,91 +87,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/71.gif" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/8.gif" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/9.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/images/face.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/images/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/images/login_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/icon-ext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/loading-0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/loading-1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/loading-2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/font/iconfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/font/iconfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/font/iconfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/10.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/11.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/12.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/13.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/14.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/15.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/17.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/18.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/19.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/20.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/21.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/23.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/24.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/25.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/26.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/27.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/28.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/29.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/30.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/31.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/32.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/33.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/34.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/35.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/36.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/37.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/38.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/39.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/4.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/40.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/41.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/42.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/43.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/44.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/45.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/46.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/47.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/48.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/49.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/5.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/50.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/51.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/52.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/53.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/54.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/55.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/56.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/57.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/58.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/59.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/6.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/60.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/61.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/62.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/63.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/64.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/65.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/66.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/67.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/68.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/69.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/7.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/70.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/71.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/9.gif" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/.mvn/wrapper/maven-wrapper.jar" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gradle/.gradle/3.4/file-changes/last-build.bin" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gradle/.gradle/3.4/taskHistory/fileSnapshots.bin" />
@@ -2928,9 +2843,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/resources/application.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/resources/log4j.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/resources/rebel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/target/classes/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/target/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/target/classes/rebel.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/consumer.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/pom.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/Application.java" />
@@ -3014,70 +2926,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/user/change.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/user/info.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/user/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/database/import.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/rebel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/css/public.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/cache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/icon/icons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/address.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/bodyTab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/treetable/treetable.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/treetable/treetable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/xtree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/permission/info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/permission/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/role/info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/role/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/user/center.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/user/change.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/user/info.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/user/list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/layui.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/layui.mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/code.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/laydate/default/laydate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/layer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/font/iconfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/carousel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/element.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/flow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/laydate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/layedit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/laypage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/laytpl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/mobile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/tree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/upload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/layui.all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/layui.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/error/403.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/error/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/error/500.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/error/error.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/icon/icons.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/permission/info.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/permission/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/role/info.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/role/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/user/center.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/user/change.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/user/info.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/user/list.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fz-cms.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/pom.xml" />
@@ -3122,20 +2970,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/src/main/resources/mapper/SendMessageMapper.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/src/main/resources/mapper/UserMapper.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/src/main/resources/rebel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/target/classes/application-dev.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/target/classes/application-prod.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/target/classes/application-test.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/target/classes/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/target/classes/config/message.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/target/classes/config/pic.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/target/classes/config/push.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/target/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/target/classes/mapper/ClientMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/target/classes/mapper/PermissionMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/target/classes/mapper/RoleMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/target/classes/mapper/SendMessageMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/target/classes/mapper/UserMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provider/target/classes/rebel.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/.gitignore" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/.mvn/wrapper/maven-wrapper.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/mvnw" />
@@ -4765,6 +4599,10 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/util/HttpUtils.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/util/RegexValidateUtil.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/util/StringUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/target/classes/application-dev.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/target/classes/application-prod.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/target/classes/application-test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/target/classes/application.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/ApiApplication.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/api/ApiHomeController.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/api/BaseController.class" afterPath="" />
@@ -4779,6 +4617,12 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/util/JwtUtil.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/util/PasswordEncoder.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/validator/user/UserValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/target/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/target/classes/rebel.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/application-dev.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/application-prod.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/application-test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/application.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/Application.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/config/CustomFormAuthenticationFilter.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/config/CustomRedisManager.class" afterPath="" />
@@ -4799,7 +4643,174 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/web/PermissionController.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/web/RoleController.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/web/UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/database/import.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/rebel.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/css/public.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/images/face.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/images/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/images/login_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/cache.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/company/info.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/company/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/dictionary/info.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/dictionary/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/icon/icons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/address.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/bodyTab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/treetable/treetable.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/treetable/treetable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/xtree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/org/info.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/org/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/permission/info.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/permission/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/role/info.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/role/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/user/center.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/user/change.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/user/info.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/user/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/layui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/layui.mobile.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/code.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/laydate/default/laydate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/font/iconfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/font/iconfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/font/iconfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/font/iconfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/18.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/23.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/24.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/25.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/26.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/27.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/28.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/29.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/30.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/32.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/33.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/34.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/35.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/36.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/37.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/38.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/39.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/40.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/41.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/42.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/43.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/44.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/45.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/46.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/47.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/48.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/49.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/51.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/52.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/53.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/54.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/55.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/56.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/57.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/58.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/59.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/60.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/61.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/62.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/63.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/65.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/66.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/67.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/68.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/69.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/70.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/71.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/element.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/flow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/laydate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/layedit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/layer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/laypage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/laytpl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/mobile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/tree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/upload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/util.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/layui.all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/static/layui/layui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/company/info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/company/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/dictionary/info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/dictionary/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/error/403.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/error/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/error/500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/error/error.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/icon/icons.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/login.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/org/info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/org/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/permission/info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/permission/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/role/info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/role/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/user/center.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/user/change.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/user/info.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/user/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/com/fangzhi/yao/fzcms/mapper/UserMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/com/fangzhi/yao/fzcms/mapper/xml/UserMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/com/fangzhi/yao/fzcms/service/impl/UserServiceImpl.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/application-dev.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/application-prod.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/application-test.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/application.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/ServiceApplication.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/config/AutoMetaObjectHandler.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/config/MybatisPlusConfig.class" afterPath="" />
@@ -4833,21 +4844,24 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/thirdparty/qiniu/impl/QiniuServiceImpl.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/thirdparty/sms/SmsSendMessageService.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/thirdparty/sms/impl/SendMessageImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/config/message.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/config/pic.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/config/push.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/mapper/ClientMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/mapper/CompanyMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/mapper/DictionaryMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/mapper/OrgMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/mapper/PermissionMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/mapper/RoleMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/mapper/SendMessageMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/mapper/UserMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/target/classes/rebel.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/Role.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/Role.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/User.java" afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/UserController.java" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer/src/main/resources/static/js/org/info.js" afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/org/info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer/src/main/resources/static/js/user/info.js" afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/user/info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer/src/main/resources/static/js/user/list.js" afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/user/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer/src/main/resources/templates/user/info.html" afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/user/info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/org/info.js" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/org/info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/user/info.js" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/user/info.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer/target/classes/static/js/user/list.js" afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/user/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer/target/classes/templates/user/info.html" afterPath="$PROJECT_DIR$/consumer/target/classes/templates/user/info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provider/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/provider/src/main/resources/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provider/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/provider/target/classes/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/src/main/java/com/fangzhi/yao/fzcms/tools/generator/TyqxCmsGenerator.java" afterPath="$PROJECT_DIR$/tools/src/main/java/com/fangzhi/yao/fzcms/tools/generator/TyqxCmsGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api.iml" afterPath="$PROJECT_DIR$/api/api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/pom.xml" afterPath="$PROJECT_DIR$/api/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer/consumer.iml" afterPath="$PROJECT_DIR$/consumer/consumer.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer/pom.xml" afterPath="$PROJECT_DIR$/consumer/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -4886,115 +4900,103 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="info.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/templates/org/info.html">
+      <file leaf-file-name="MultithreadEventExecutorGroup.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar!/io/netty/util/concurrent/MultithreadEventExecutorGroup.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="32" />
+              <caret line="28" column="68" lean-forward="false" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/provider/src/main/resources/mapper/UserMapper.xml">
+      <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/netty/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+            <state relative-caret-position="330">
+              <caret line="36" column="59" lean-forward="false" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/netty/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/netty/ClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="72" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="72" />
               <folding>
-                <marker date="1540806768000" expanded="true" signature="2748:3094" ph="SELECT u.*, sys_user" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/User.java">
+      <file leaf-file-name="DefaultThreadFactory.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar!/io/netty/util/concurrent/DefaultThreadFactory.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1935">
-              <caret line="181" column="38" lean-forward="false" selection-start-line="181" selection-start-column="38" selection-end-line="181" selection-end-column="38" />
+            <state relative-caret-position="210">
+              <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/static/js/user/info.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-              <folding>
-                <marker date="1540808076000" expanded="true" signature="37:3573" ph="{...}" />
-                <marker date="1540808076000" expanded="true" signature="573:1012" ph="{...}" />
-                <marker date="1540808076000" expanded="true" signature="821:969" ph="{...}" />
-                <marker date="1540808076000" expanded="true" signature="2919:3570" ph="{...}" />
-                <marker date="1540808076000" expanded="true" signature="2999:3562" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="99" column="55" lean-forward="false" selection-start-line="99" selection-start-column="55" selection-end-line="99" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/templates/user/info.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/templates/user/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/static/js/user/list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="90" column="74" lean-forward="false" selection-start-line="90" selection-start-column="74" selection-end-line="90" selection-end-column="74" />
-              <folding>
-                <marker date="1540807261000" expanded="true" signature="45:4798" ph="{...}" />
-                <marker date="1540807261000" expanded="true" signature="2419:3610" ph="{...}" />
-                <marker date="1540807261000" expanded="true" signature="2525:3603" ph="{&quot;title&quot;: &quot;添加用户&quot;...}" />
-                <marker date="1540807261000" expanded="true" signature="2689:3593" ph="{...}" />
-                <marker date="1540807261000" expanded="true" signature="2784:3366" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/UserInfo.java">
+      <file leaf-file-name="DefaultEventExecutorChooserFactory.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar!/io/netty/util/concurrent/DefaultEventExecutorChooserFactory.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoleInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/RoleInfo.java">
+      <file leaf-file-name="ThreadPerTaskExecutor.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar!/io/netty/util/concurrent/ThreadPerTaskExecutor.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="90">
+              <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Executor.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/Executor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1410">
+              <caret line="127" column="17" lean-forward="false" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreadFactory.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="67" column="11" lean-forward="false" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractEventExecutorGroup.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar!/io/netty/util/concurrent/AbstractEventExecutorGroup.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="18" column="69" lean-forward="false" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -5060,16 +5062,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/consumer/src/main/resources/static/js/main.js" />
-        <option value="$PROJECT_DIR$/consumer/src/main/resources/static/js/cache.js" />
-        <option value="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/util/StringToDateConverter.java" />
-        <option value="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/Company.java" />
-        <option value="$PROJECT_DIR$/consumer/src/main/resources/templates/company/info.html" />
-        <option value="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/BaseController.java" />
-        <option value="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/CompanyController.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/resources/static/js/company/info.js" />
-        <option value="$PROJECT_DIR$/api/pom.xml" />
         <option value="$PROJECT_DIR$/consumer/src/main/resources/templates/company/list.html" />
         <option value="$PROJECT_DIR$/consumer/src/main/resources/static/js/company/list.js" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/DictionaryController.java" />
@@ -5111,6 +5104,15 @@
         <option value="$PROJECT_DIR$/consumer/src/main/resources/static/js/user/list.js" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/User.java" />
         <option value="$PROJECT_DIR$/consumer/src/main/resources/static/js/user/info.js" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/mq/Producer.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/mq/Consumer.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/mq/Test.java" />
+        <option value="$PROJECT_DIR$/api/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/netty/Client.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/netty/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/netty/Server.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/netty/ServerHandler.java" />
       </list>
     </option>
   </component>
@@ -5167,10 +5169,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="126" />
-    <option name="y" value="57" />
-    <option name="width" value="1576" />
-    <option name="height" value="848" />
+    <option name="x" value="378" />
+    <option name="y" value="151" />
+    <option name="width" value="1312" />
+    <option name="height" value="765" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -5190,9 +5192,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -5207,6 +5208,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -5265,7 +5267,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Application.Client">
     <configuration default="false" name="TyqxCmsGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -5283,6 +5285,66 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="tools" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.fangzhi.yao.fzcms.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.mq.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="consumer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.fangzhi.yao.fzcms.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.netty.Server" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="consumer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.fangzhi.yao.fzcms.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.netty.Client" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="consumer" />
       <envs />
       <method />
     </configuration>
@@ -5695,15 +5757,21 @@
       </envs>
       <method />
     </configuration>
-    <list size="4">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ApiApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.Application" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ServiceApplication" />
       <item index="3" class="java.lang.String" itemvalue="Application.TyqxCmsGenerator" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Server" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Client" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.TyqxCmsGenerator" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Server" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TyqxCmsGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -5778,12 +5846,19 @@
       <workItem from="1540294459396" duration="19266000" />
       <workItem from="1540459916361" duration="12551000" />
       <workItem from="1540799036295" duration="2505000" />
-      <workItem from="1540806646021" duration="1550000" />
+      <workItem from="1540806646021" duration="1822000" />
+      <workItem from="1540866578617" duration="3719000" />
+      <workItem from="1542793342619" duration="3066000" />
+      <workItem from="1548223999744" duration="760000" />
+      <workItem from="1551405506324" duration="1548000" />
+      <workItem from="1552030443250" duration="4247000" />
+      <workItem from="1553250029337" duration="367000" />
+      <workItem from="1558582433716" duration="88000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="520451000" />
+    <option name="totallyTimeSpent" value="534518000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -5795,13 +5870,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="126" y="57" width="1576" height="848" extended-state="0" />
+    <frame x="378" y="151" width="1312" height="765" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47751322" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20143417" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20118344" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -5811,15 +5886,14 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40608466" sideWeight="0.49353796" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763976" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41269842" sideWeight="0.49633026" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41233766" sideWeight="0.49633026" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.493578" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26923078" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13670133" sideWeight="0.493578" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36062992" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -5828,6 +5902,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270975" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -5837,8 +5912,8 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47826087" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959871" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47751322" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20118344" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -5847,18 +5922,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4068323" sideWeight="0.49353796" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40608466" sideWeight="0.49353796" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763976" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270975" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41304347" sideWeight="0.49633026" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41269842" sideWeight="0.49633026" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.493578" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32552505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13718821" sideWeight="0.493578" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4248555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -5899,275 +5974,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/templates/permission/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/static/js/permission/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="44" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/static/js/permission/info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/templates/permission/info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="46" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/service/IOrgService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/util/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="368" column="40" lean-forward="false" selection-start-line="368" selection-start-column="25" selection-end-line="368" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/ex/BusinessException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl/PermissionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="82" column="61" lean-forward="false" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.1.6/mybatis-plus-support-2.1.6.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="41" column="12" lean-forward="false" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/Org.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/templates/org/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/OrgController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="53" column="49" lean-forward="false" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl/OrgServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="74" column="54" lean-forward="false" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="24" column="24" lean-forward="false" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/resources/application-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/templates/user/change.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/templates/user/center.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/static/js/org/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="108" column="43" lean-forward="false" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/static/js/org/info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="7" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/com/fangzhi/yao/fzcms/service/IUserService.java" />
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/com/fangzhi/yao/fzcms/web/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/provider/com/fangzhi/yao/fzcms/service/impl/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/tools/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/src/main/java/com/fangzhi/yao/fzcms/tools/generator/TyqxCmsGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="47" column="64" lean-forward="false" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/com/fangzhi/yao/fzcms/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="223" column="5" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="223" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/com/fangzhi/yao/fzcms/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/com/fangzhi/yao/fzcms/mapper/xml/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/api/com/fangzhi/yao/fzcms/entity/User.java" />
+    <entry file="file://$PROJECT_DIR$/provider/com/fangzhi/yao/fzcms/mapper/UserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/provider/com/fangzhi/yao/fzcms/mapper/xml/UserMapper.xml" />
     <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/Permission.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -6175,7 +5988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-375">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -6183,7 +5995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -6191,7 +6002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -6199,35 +6009,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/static/js/user/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="1350">
           <caret line="90" column="74" lean-forward="false" selection-start-line="90" selection-start-column="74" selection-end-line="90" selection-end-column="74" />
-          <folding>
-            <marker date="1540807261000" expanded="true" signature="45:4798" ph="{...}" />
-            <marker date="1540807261000" expanded="true" signature="2419:3610" ph="{...}" />
-            <marker date="1540807261000" expanded="true" signature="2525:3603" ph="{&quot;title&quot;: &quot;添加用户&quot;...}" />
-            <marker date="1540807261000" expanded="true" signature="2689:3593" ph="{...}" />
-            <marker date="1540807261000" expanded="true" signature="2784:3366" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/static/js/user/info.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
+        <state relative-caret-position="1455">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding>
-            <marker date="1540808076000" expanded="true" signature="37:3573" ph="{...}" />
-            <marker date="1540808076000" expanded="true" signature="573:1012" ph="{...}" />
-            <marker date="1540808076000" expanded="true" signature="821:969" ph="{...}" />
-            <marker date="1540808076000" expanded="true" signature="2919:3570" ph="{...}" />
-            <marker date="1540808076000" expanded="true" signature="2999:3562" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6235,9 +6030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
-          <folding>
-            <marker date="1540806768000" expanded="true" signature="2748:3094" ph="SELECT u.*, sys_user" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6245,31 +6037,296 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1935">
           <caret line="181" column="38" lean-forward="false" selection-start-line="181" selection-start-column="38" selection-end-line="181" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="99" column="55" lean-forward="false" selection-start-line="99" selection-start-column="55" selection-end-line="99" selection-end-column="55" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/templates/org/info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="225">
           <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/templates/user/info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="41" />
+        <state relative-caret-position="255">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="38" column="25" lean-forward="false" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/Org.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="75" column="4" lean-forward="false" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/src/main/resources/templates/mapper.xml.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/src/main/resources/templates/serviceImpl.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/src/main/resources/templates/mapper.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/src/main/resources/templates/entity.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-691">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/src/main/resources/templates/service.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/src/main/resources/templates/controller.java.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/src/main/java/com/fangzhi/yao/fzcms/tools/generator/AutoGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5310">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/src/main/java/com/fangzhi/yao/fzcms/tools/generator/DefaultGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="64" column="9" lean-forward="true" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/src/main/java/com/fangzhi/yao/fzcms/tools/generator/TyqxCmsGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="61" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/rocketmq/rocketmq-common/3.2.6/rocketmq-common-3.2.6.jar!/com/alibaba/rocketmq/common/consumer/ConsumeFromWhere.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="21" lean-forward="false" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/mq/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="70" lean-forward="false" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/mq/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/mq/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="35" column="58" lean-forward="false" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/netty/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar!/io/netty/util/concurrent/EventExecutorChooserFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar!/io/netty/util/concurrent/Promise.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar!/io/netty/util/concurrent/EventExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar!/io/netty/util/concurrent/EventExecutorGroup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar!/io/netty/util/concurrent/AbstractEventExecutorGroup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="69" lean-forward="false" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="127" column="17" lean-forward="false" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="67" column="11" lean-forward="false" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar!/io/netty/util/concurrent/ThreadPerTaskExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar!/io/netty/util/concurrent/DefaultEventExecutorChooserFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar!/io/netty/util/concurrent/DefaultThreadFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar!/io/netty/util/concurrent/MultithreadEventExecutorGroup.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="28" column="68" lean-forward="false" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/netty/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="36" column="59" lean-forward="false" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/netty/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/netty/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="72" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

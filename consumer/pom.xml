@@ -84,6 +84,18 @@
             <artifactId>kaptcha</artifactId>
             <version>0.0.9</version>
         </dependency>
+        <!-- RocketMQ Java SDK -->
+        <dependency>
+            <groupId>com.alibaba.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>3.2.6</version>
+        </dependency>
+        <!-- netty Java SDK -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.5.Final</version>
+        </dependency>
     </dependencies>
 
     <build>
