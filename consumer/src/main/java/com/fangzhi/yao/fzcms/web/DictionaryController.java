@@ -30,7 +30,7 @@ public class DictionaryController extends BaseController{
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Reference(version = "1.0.0")
+    @Reference(version = "1.0.0", check = false)
     IDictionaryService iDictionaryService;
 
     @RequestMapping("/*")

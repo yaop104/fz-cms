@@ -32,7 +32,7 @@ public class OrgController extends BaseController{
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Reference(version = "1.0.0")
+    @Reference(version = "1.0.0", check = false)
     IOrgService iOrgService;
 
     @RequestMapping("/*")

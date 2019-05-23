@@ -26,7 +26,7 @@ import java.util.List;
 @RequestMapping("/menu")
 public class MenuController extends BaseController{
 
-    @Reference(version = "1.0.0")
+    @Reference(version = "1.0.0", check = false)
     private IPermissionService iPermissionService;
 
     @RequestMapping("/left")

@@ -15,4 +15,6 @@ public interface ConstantYao {
     Integer NUMBER_ONE=1;
     Integer NUMBER_TWO=2;
     Integer NUMBER_THREE=3;
+
+    String ATTACHMENT_KEY_OF_DJCONTEXT = "DJContext";
 }

@@ -29,10 +29,10 @@ import java.util.List;
 @RequestMapping("/role")
 public class RoleController extends BaseController {
 
-    @Reference(version = "1.0.0")
+    @Reference(version = "1.0.0", check = false)
     private IRoleService iRoleService;
 
-    @Reference(version = "1.0.0")
+    @Reference(version = "1.0.0", check = false)
     private IUserService iUserService;
 
     @RequestMapping("/*")
