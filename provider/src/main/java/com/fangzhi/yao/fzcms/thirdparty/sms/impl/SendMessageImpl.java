@@ -8,7 +8,6 @@ import com.fangzhi.yao.fzcms.entity.SendMessage;
 import com.fangzhi.yao.fzcms.repo.SendMessageRepo;
 import com.fangzhi.yao.fzcms.thirdparty.sms.SmsSendMessageService;
 import com.fangzhi.yao.fzcms.util.HttpUtils;
-import lombok.extern.log4j.Log4j;
 import org.apache.commons.lang.StringUtils;
 import org.apache.http.HttpResponse;
 import org.apache.http.util.EntityUtils;
@@ -24,7 +23,6 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 @Service
-@Log4j
 public class SendMessageImpl implements SmsSendMessageService {
 
 	@Autowired
@@ -55,7 +53,7 @@ public class SendMessageImpl implements SmsSendMessageService {
 			sendMessageInfo(smsMessage.getPhone(), smsMessage.getSmsCode());
 
 		} catch (Exception e) {
-			log.error("sendMessage ERROR : " , e);
+//			log.error("sendMessage ERROR : " , e);
 		}
 		
 	}
@@ -92,7 +90,7 @@ public class SendMessageImpl implements SmsSendMessageService {
 				flag = true;
 			}
 		} catch (Exception e) {
-			log.error("SMS SEND ERROR : " , e);
+//			log.error("SMS SEND ERROR : " , e);
 		}
 		return  flag;
 	}

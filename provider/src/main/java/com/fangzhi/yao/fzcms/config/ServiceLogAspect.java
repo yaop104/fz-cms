@@ -1,19 +1,21 @@
 package com.fangzhi.yao.fzcms.config;
 
-import org.apache.log4j.Logger;
+import com.fangzhi.yao.fzcms.log.Log;
+import com.fangzhi.yao.fzcms.log.LogFactory;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
+
 import java.util.Arrays;
 
 @Aspect
 @Component
 public class ServiceLogAspect {
 
-    private Logger logger = Logger.getLogger(getClass());
+    private Log logger = LogFactory.getLog(getClass());
 
 	ThreadLocal<Long> startTime = new ThreadLocal<>();
 

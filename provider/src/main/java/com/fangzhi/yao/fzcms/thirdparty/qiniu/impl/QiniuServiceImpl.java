@@ -3,7 +3,6 @@ package com.fangzhi.yao.fzcms.thirdparty.qiniu.impl;
 import com.fangzhi.yao.fzcms.config.third.FzQiniu;
 import com.fangzhi.yao.fzcms.thirdparty.qiniu.PicService;
 import com.qiniu.util.Auth;
-import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +11,6 @@ import org.springframework.stereotype.Service;
  * @date 2018/10/17 PM2:15
  */
 @Service
-@Log4j
 public class QiniuServiceImpl implements PicService {
 
     @Autowired
