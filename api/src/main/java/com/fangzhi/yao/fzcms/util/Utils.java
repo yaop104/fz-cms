@@ -9,6 +9,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.sql.Timestamp;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -210,16 +211,13 @@ public class Utils {
         return resultString;
     }
 
-    /**
-     * 版本号比对方法
-     *
-     * @param version        基线版本号
-     * @param currentVersion 当前版本号
-     * @return 是否是基线版本号或更新的版本号
-     */
-    @Deprecated
-    public static boolean afterVersion(String version, String currentVersion) {
-        return currentVersion.compareToIgnoreCase(version) >= 0;
-    }
 
+    public static HashMap<String, String> convertMap(final Map<String, String[]> inputMap) {
+        HashMap<String, String> outMap = new HashMap<>();
+        if (isEmpty(inputMap)) {
+            return outMap;
+        }
+        inputMap.forEach((k, v) -> outMap.put(k, Arrays.toString(v)));
+        return outMap;
+    }
 }

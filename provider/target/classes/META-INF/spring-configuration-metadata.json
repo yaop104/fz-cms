@@ -1,0 +1,72 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzQiniu",
+      "name": "pic.qiniu",
+      "type": "com.fangzhi.yao.fzcms.config.third.FzQiniu"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzPush",
+      "name": "push.jiguang",
+      "type": "com.fangzhi.yao.fzcms.config.third.FzPush"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzSms",
+      "name": "sms.message",
+      "type": "com.fangzhi.yao.fzcms.config.third.FzSms"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzQiniu",
+      "name": "pic.qiniu.access-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzQiniu",
+      "name": "pic.qiniu.bucket",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzQiniu",
+      "name": "pic.qiniu.secret-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzPush",
+      "name": "push.jiguang.app-key",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzPush",
+      "name": "push.jiguang.master-secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzSms",
+      "name": "sms.message.appcode",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzSms",
+      "name": "sms.message.path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzSms",
+      "name": "sms.message.sign",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzSms",
+      "name": "sms.message.skin",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.fangzhi.yao.fzcms.config.third.FzSms",
+      "name": "sms.message.url",
+      "type": "java.lang.String"
+    }
+  ]
+}

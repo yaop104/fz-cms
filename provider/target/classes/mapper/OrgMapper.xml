@@ -1,0 +1,22 @@
+<?Mapper version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fangzhi.yao.fzcms.mapper.OrgMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.fangzhi.yao.fzcms.entity.Org">
+        <id column="sys_org_id" property="sysOrgId" />
+        <result column="sys_org_code" property="sysOrgCode" />
+        <result column="sys_org_name" property="sysOrgName" />
+        <result column="sys_org_pcode" property="sysOrgPcode" />
+        <result column="sys_org_state" property="sysOrgState" />
+        <result column="sys_org_order" property="sysOrgOrder" />
+        <result column="sys_org_desc" property="sysOrgDesc" />
+        <result column="sys_org_type" property="sysOrgType" />
+        <result column="sys_org_outercode" property="sysOrgOutercode" />
+        <result column="sys_org_cdate" property="sysOrgCdate" />
+        <result column="sys_org_udate" property="sysOrgUdate" />
+        <result column="sys_org_cuser" property="sysOrgCuser" />
+        <result column="sys_company_code" property="sysCompanyCode" />
+    </resultMap>
+
+</mapper>

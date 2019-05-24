@@ -28,6 +28,7 @@
         <java.version>1.8</java.version>
         <jdk.version>1.8</jdk.version>
         <springboot.version>1.5.7.RELEASE</springboot.version>
+        <dubbo.version>2.6.0</dubbo.version>
         <project.release.version>0.1-SNAPSHOT</project.release.version>
     </properties>
 
@@ -74,16 +75,15 @@
             <groupId>com.alibaba.boot</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
             <version>0.1.0</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework</groupId>
-                    <artifactId>spring-web</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>com.alibaba</groupId>
-                    <artifactId>dubbo</artifactId>
-                </exclusion>
-            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>${dubbo.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
         </dependency>
         <dependency> <!-- 引入log4j2依赖 -->
             <groupId>org.springframework.boot</groupId>
@@ -161,6 +161,11 @@
             <artifactId>netty-all</artifactId>
             <version>4.1.6.Final</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
         </dependency>
         <!-- For log4j
         <dependency>

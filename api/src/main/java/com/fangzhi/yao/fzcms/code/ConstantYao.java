@@ -17,4 +17,5 @@ public interface ConstantYao {
     Integer NUMBER_THREE=3;
 
     String ATTACHMENT_KEY_OF_DJCONTEXT = "DJContext";
+    String ADMIN_ID = "Admin-Id";
 }
