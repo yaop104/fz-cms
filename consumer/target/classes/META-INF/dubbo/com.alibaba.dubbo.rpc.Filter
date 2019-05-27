@@ -1,0 +1,2 @@
+finalcontext=com.fangzhi.yao.fzcms.context.ProviderContextFilter
+consumerfilter=com.fangzhi.yao.fzcms.context.ConsumerContextFilter

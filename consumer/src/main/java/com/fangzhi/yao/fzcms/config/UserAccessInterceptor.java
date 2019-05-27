@@ -75,7 +75,7 @@ public class UserAccessInterceptor extends HandlerInterceptorAdapter {
         Integer adminId = Optional.ofNullable(userInfo).map(User::getId).orElse(0);
 
         // 无法从 header 中获取 adminId，就从尝试通过 sessionId 获取 redis 中的 admin 信息
-        request.setAttribute(ADMIN_ID, adminId);
+        request.setAttribute(ADMIN_ID, Long.valueOf(adminId));
     }
 
     private void initDjContext(HttpServletRequest request) {

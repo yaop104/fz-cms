@@ -1,8 +1,8 @@
 package com.fangzhi.yao.fzcms.config;
 
-import at.pollux.thymeleaf.shiro.dialect.ShiroDialect;
-import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
+import org.apache.shiro.mgt.SecurityManager;
+import org.apache.shiro.mgt.SessionsSecurityManager;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
@@ -125,7 +125,7 @@ public class ShiroConfig {
 	}
 
 	@Bean
-	public SecurityManager securityManager(){
+	public SessionsSecurityManager securityManager(){
 		DefaultWebSecurityManager securityManager =  new DefaultWebSecurityManager();
 		// 设置realm
 		securityManager.setRealm(shiroRealm());
@@ -161,13 +161,13 @@ public class ShiroConfig {
 		return authorizationAttributeSourceAdvisor;
 	}
 
-	/**
-	 * shiro 方言配置
-	 * @return
-	 */
-	@Bean
-	public ShiroDialect shiroDialect() {
-		return new ShiroDialect();
-	}
+//	/**
+//	 * shiro 方言配置
+//	 * @return
+//	 */
+//	@Bean
+//	public ShiroDialect shiroDialect() {
+//		return new ShiroDialect();
+//	}
 
 }

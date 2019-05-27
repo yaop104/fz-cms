@@ -6,6 +6,7 @@ import com.alibaba.dubbo.rpc.*;
 import com.fangzhi.yao.fzcms.log.Log;
 import com.fangzhi.yao.fzcms.log.LogFactory;
 import com.fangzhi.yao.fzcms.util.GsonUtil;
+import org.apache.dubbo.rpc.RpcInvocation;
 
 import static com.fangzhi.yao.fzcms.code.ConstantYao.ATTACHMENT_KEY_OF_DJCONTEXT;
 
