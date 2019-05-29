@@ -1,11 +1,11 @@
 package com.fangzhi.yao.fzcms.service.impl;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.fangzhi.yao.fzcms.dto.UserInfo;
 import com.fangzhi.yao.fzcms.entity.User;
 import com.fangzhi.yao.fzcms.mapper.UserMapper;
 import com.fangzhi.yao.fzcms.service.IUserService;
+import org.apache.dubbo.config.annotation.Service;
 
 /**
  * <p>

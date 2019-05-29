@@ -3,15 +3,18 @@ package com.fangzhi.yao.fzcms;
 import com.google.code.kaptcha.Constants;
 import com.google.code.kaptcha.impl.DefaultKaptcha;
 import com.google.code.kaptcha.util.Config;
-
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.PropertySource;
 
 import java.util.Properties;
 
 @EnableDubbo
+@EnableAutoConfiguration
+@PropertySource(value = "classpath:/consumer-config.properties")
 @SpringBootApplication
 public class Application {
 

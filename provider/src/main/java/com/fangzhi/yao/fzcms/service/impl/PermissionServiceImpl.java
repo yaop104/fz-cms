@@ -1,6 +1,5 @@
 package com.fangzhi.yao.fzcms.service.impl;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.fangzhi.yao.fzcms.code.ResourceType;
@@ -9,6 +8,7 @@ import com.fangzhi.yao.fzcms.entity.Permission;
 import com.fangzhi.yao.fzcms.ex.BusinessException;
 import com.fangzhi.yao.fzcms.mapper.PermissionMapper;
 import com.fangzhi.yao.fzcms.service.IPermissionService;
+import org.apache.dubbo.config.annotation.Service;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 

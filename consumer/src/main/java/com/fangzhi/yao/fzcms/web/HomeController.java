@@ -1,14 +1,16 @@
 package com.fangzhi.yao.fzcms.web;
 
-import com.alibaba.dubbo.config.annotation.Reference;
 import com.fangzhi.yao.fzcms.dto.DirectoryInfo;
+import com.fangzhi.yao.fzcms.dto.ResultInfo;
 import com.fangzhi.yao.fzcms.dto.RoleInfo;
 import com.fangzhi.yao.fzcms.dto.UserInfo;
+import com.fangzhi.yao.fzcms.entity.Org;
 import com.fangzhi.yao.fzcms.entity.Permission;
 import com.fangzhi.yao.fzcms.entity.User;
 import com.fangzhi.yao.fzcms.ex.BusinessException;
 import com.fangzhi.yao.fzcms.service.IPermissionService;
 import com.fangzhi.yao.fzcms.service.IUserService;
+import org.apache.dubbo.config.annotation.Reference;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AccountException;
 import org.apache.shiro.authc.DisabledAccountException;
@@ -35,6 +37,11 @@ public class HomeController extends BaseController{
     @RequestMapping("/*")
     public void toHtml(){
 
+    }
+
+    @RequestMapping("/kickout")
+    public ResultInfo<List<Org>> listData() {
+        return new ResultInfo<>("kickout");
     }
 
     @RequestMapping({"/","/index"})

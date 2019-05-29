@@ -1,12 +1,12 @@
 package com.fangzhi.yao.fzcms.web;
 
-import com.alibaba.dubbo.config.annotation.Reference;
 import com.fangzhi.yao.fzcms.code.ResourceType;
 import com.fangzhi.yao.fzcms.dto.EnumInfo;
 import com.fangzhi.yao.fzcms.dto.PermissionInfo;
 import com.fangzhi.yao.fzcms.dto.ResultInfo;
 import com.fangzhi.yao.fzcms.entity.Permission;
 import com.fangzhi.yao.fzcms.service.IPermissionService;
+import org.apache.dubbo.config.annotation.Reference;
 import org.apache.shiro.authz.annotation.Logical;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.stereotype.Controller;

@@ -1,8 +1,9 @@
 package com.fangzhi.yao.fzcms.config;
 
-import com.alibaba.dubbo.config.annotation.Reference;
 import com.fangzhi.yao.fzcms.dto.UserInfo;
 import com.fangzhi.yao.fzcms.entity.Permission;
+import com.fangzhi.yao.fzcms.log.Log;
+import com.fangzhi.yao.fzcms.log.LogFactory;
 import com.fangzhi.yao.fzcms.service.IUserService;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
@@ -12,15 +13,23 @@ import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class ShiroRealm extends AuthorizingRealm {
 
-    private Logger logger = LoggerFactory.getLogger(this.getClass());
+    private Log logger = LogFactory.getLog(this.getClass());
 
-    @Reference(version = "1.0.0")
-    private IUserService iUserService;
+//    private IUserService iUserService;
+
+    //dubbo提供的服务
+//    private IUserService iUserService;
+//
+//    public IUserService getiUserService() {
+//        return iUserService;
+//    }
+//
+//    public void setiUserService(IUserService iUserService) {
+//        this.iUserService = iUserService;
+//    }
 
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
@@ -47,9 +56,11 @@ public class ShiroRealm extends AuthorizingRealm {
         String username = (String)token.getPrincipal();
         //通过username从数据库中查找 User对象，如果找到，没找到.
         //实际项目中，这里可以根据实际情况做缓存，如果不做，Shiro自己也是有时间间隔机制，2分钟内不会重复执行该方法
+        IUserService iUserService = SpringContextUtil.getBean("iUserService");
         UserInfo userInfo = iUserService.findUserInfo(username);
+//        UserInfo userInfo = new UserInfo();
 
-        logger.info("----->userInfo=" + userInfo);
+                logger.info("----->userInfo=" + userInfo);
         if(userInfo == null){
             throw new AccountException();
         }else if(userInfo.getState() == 0){

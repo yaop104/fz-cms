@@ -32,6 +32,7 @@
         <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
         <java.version>1.8</java.version>
         <jdk.version>1.8</jdk.version>
+        <shiro.version>1.4.0</shiro.version>
         <dubbo.version>2.7.1</dubbo.version>
         <spring-boot.version>2.1.1.RELEASE</spring-boot.version>
         <nacos-config-spring-boot.version>0.2.1</nacos-config-spring-boot.version>
@@ -125,22 +126,28 @@
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
             <version>2.7.1</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.alibaba</groupId>
+                    <artifactId>dubbo</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.101tec</groupId>
-            <artifactId>zkclient</artifactId>
-            <version>0.10</version>
-        </dependency>
-        <dependency>
-            <groupId>net.sourceforge.nekohtml</groupId>
-            <artifactId>nekohtml</artifactId>
-            <version>1.9.22</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.101tec</groupId>-->
+            <!--<artifactId>zkclient</artifactId>-->
+            <!--<version>0.10</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>net.sourceforge.nekohtml</groupId>-->
+            <!--<artifactId>nekohtml</artifactId>-->
+            <!--<version>1.9.22</version>-->
+        <!--</dependency>-->
         <!-- shiro 官网: https://shiro.apache.org/spring-boot.html -->
         <!--<dependency>-->
             <!--<groupId>org.apache.shiro</groupId>-->
@@ -149,8 +156,19 @@
         <!--</dependency>-->
         <dependency>
             <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
             <artifactId>shiro-spring</artifactId>
-            <version>1.4.0</version>
+            <version>${shiro.version}</version>
+        </dependency>
+        <!-- shiro ehcache -->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-ehcache</artifactId>
+            <version>${shiro.version}</version>
         </dependency>
         <!--<dependency>-->
             <!--<groupId>com.github.theborakompanioni</groupId>-->
@@ -160,7 +178,7 @@
         <dependency>
             <groupId>org.crazycake</groupId>
             <artifactId>shiro-redis</artifactId>
-            <version>3.1.0</version>
+            <version>3.2.3</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.apache.shiro</groupId>
@@ -189,6 +207,35 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
+        </dependency>
+        <!-- Dubbo Registry Nacos -->
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-registry-nacos</artifactId>
+            <version>${dubbo.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-client</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!-- Alibaba Spring Context extension -->
+        <dependency>
+            <groupId>com.alibaba.spring</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>nacos-config-spring-boot-starter</artifactId>
+            <version>${nacos-config-spring-boot.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>nacos-config-spring-boot-actuator</artifactId>
+            <version>${nacos-config-spring-boot.version}</version>
         </dependency>
     </dependencies>
 

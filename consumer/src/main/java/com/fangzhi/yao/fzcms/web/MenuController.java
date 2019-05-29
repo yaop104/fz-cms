@@ -1,6 +1,5 @@
 package com.fangzhi.yao.fzcms.web;
 
-import com.alibaba.dubbo.config.annotation.Reference;
 import com.fangzhi.yao.fzcms.dto.MenuInfo;
 import com.fangzhi.yao.fzcms.dto.ResultInfo;
 import com.fangzhi.yao.fzcms.dto.RoleInfo;
@@ -8,6 +7,7 @@ import com.fangzhi.yao.fzcms.dto.UserInfo;
 import com.fangzhi.yao.fzcms.entity.Permission;
 import com.fangzhi.yao.fzcms.service.IPermissionService;
 import com.fangzhi.yao.fzcms.util.StringUtils;
+import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

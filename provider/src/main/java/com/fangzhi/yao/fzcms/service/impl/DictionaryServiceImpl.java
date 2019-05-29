@@ -1,10 +1,10 @@
 package com.fangzhi.yao.fzcms.service.impl;
 
+import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.fangzhi.yao.fzcms.entity.Dictionary;
 import com.fangzhi.yao.fzcms.mapper.DictionaryMapper;
 import com.fangzhi.yao.fzcms.service.IDictionaryService;
-import com.baomidou.mybatisplus.service.impl.ServiceImpl;
-import com.alibaba.dubbo.config.annotation.Service;
+import org.apache.dubbo.config.annotation.Service;
 
 /**
  * <p>

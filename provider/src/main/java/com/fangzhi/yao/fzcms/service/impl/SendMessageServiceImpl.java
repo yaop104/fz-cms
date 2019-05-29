@@ -1,6 +1,5 @@
 package com.fangzhi.yao.fzcms.service.impl;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.fangzhi.yao.fzcms.dto.third.SmsMessage;
 import com.fangzhi.yao.fzcms.entity.SendMessage;
@@ -9,6 +8,7 @@ import com.fangzhi.yao.fzcms.repo.SendMessageRepo;
 import com.fangzhi.yao.fzcms.service.ISendMessageService;
 import com.fangzhi.yao.fzcms.thirdparty.qiniu.impl.QiniuServiceImpl;
 import com.fangzhi.yao.fzcms.thirdparty.sms.impl.SendMessageImpl;
+import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**

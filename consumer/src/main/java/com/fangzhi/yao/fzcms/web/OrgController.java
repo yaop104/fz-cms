@@ -1,11 +1,11 @@
 package com.fangzhi.yao.fzcms.web;
 
-import com.alibaba.dubbo.config.annotation.Reference;
 import com.fangzhi.yao.fzcms.code.OrgType;
 import com.fangzhi.yao.fzcms.dto.EnumInfo;
 import com.fangzhi.yao.fzcms.dto.ResultInfo;
 import com.fangzhi.yao.fzcms.entity.Org;
 import com.fangzhi.yao.fzcms.service.IOrgService;
+import org.apache.dubbo.config.annotation.Reference;
 import org.apache.shiro.authz.annotation.Logical;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.slf4j.Logger;

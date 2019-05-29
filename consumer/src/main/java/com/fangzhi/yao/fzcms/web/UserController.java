@@ -1,6 +1,5 @@
 package com.fangzhi.yao.fzcms.web;
 
-import com.alibaba.dubbo.config.annotation.Reference;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.fangzhi.yao.fzcms.dto.ResultInfo;
@@ -9,6 +8,7 @@ import com.fangzhi.yao.fzcms.entity.User;
 import com.fangzhi.yao.fzcms.service.IUserService;
 import com.fangzhi.yao.fzcms.util.PasswordEncoder;
 import com.fangzhi.yao.fzcms.util.StringUtils;
+import org.apache.dubbo.config.annotation.Reference;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.crypto.hash.SimpleHash;
 import org.springframework.beans.BeanUtils;
@@ -35,6 +35,11 @@ public class UserController extends BaseController{
 
     @Reference(version = "1.0.0", check = false)
     private IUserService iUserService;
+//
+//    @Bean(name = "iUserService")
+//    public IUserService getIUserService(){
+//        return iUserService;
+//    }
 
     @RequestMapping("/*")
     public void toHtml(){

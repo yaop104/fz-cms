@@ -1,6 +1,5 @@
 package com.fangzhi.yao.fzcms.web;
 
-import com.alibaba.dubbo.config.annotation.Reference;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.fangzhi.yao.fzcms.dto.ResultInfo;
@@ -8,6 +7,7 @@ import com.fangzhi.yao.fzcms.entity.Role;
 import com.fangzhi.yao.fzcms.entity.User;
 import com.fangzhi.yao.fzcms.service.IRoleService;
 import com.fangzhi.yao.fzcms.service.IUserService;
+import org.apache.dubbo.config.annotation.Reference;
 import org.apache.shiro.authz.annotation.Logical;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.stereotype.Controller;
