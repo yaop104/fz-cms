@@ -1,6 +1,5 @@
 package com.fangzhi.yao.fzcms.config;
 
-import com.alibaba.dubbo.config.annotation.Reference;
 import com.fangzhi.yao.fzcms.dto.UserInfo;
 import com.fangzhi.yao.fzcms.dto.token.JwtToken;
 import com.fangzhi.yao.fzcms.entity.Permission;
@@ -11,7 +10,10 @@ import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
+
+import javax.annotation.Resource;
 
 import static com.fangzhi.yao.fzcms.code.ConstantYao.NUMBER_ONE;
 import static com.fangzhi.yao.fzcms.code.ConstantYao.NUMBER_TWO;
@@ -24,7 +26,8 @@ import static com.fangzhi.yao.fzcms.code.ConstantYao.NUMBER_TWO;
 @Component
 public class ShiroTokenRealm extends AuthorizingRealm {
 
-    @Reference(version = "1.0.0")
+    @Resource
+    @Lazy
     private IUserService iUserService;
 
     /**

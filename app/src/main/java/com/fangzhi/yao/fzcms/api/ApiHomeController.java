@@ -1,6 +1,5 @@
 package com.fangzhi.yao.fzcms.api;
 
-import com.alibaba.dubbo.config.annotation.Reference;
 import com.fangzhi.yao.fzcms.dto.ResultInfo;
 import com.fangzhi.yao.fzcms.dto.UserInfo;
 import com.fangzhi.yao.fzcms.dto.token.PrintAccessToken;
@@ -12,6 +11,7 @@ import com.fangzhi.yao.fzcms.service.IUserService;
 import com.fangzhi.yao.fzcms.util.JwtUtil;
 import com.fangzhi.yao.fzcms.util.PasswordEncoder;
 import com.fangzhi.yao.fzcms.validator.user.UserValidator;
+import org.apache.dubbo.config.annotation.Reference;
 import org.apache.shiro.authz.annotation.Logical;
 import org.apache.shiro.authz.annotation.RequiresAuthentication;
 import org.apache.shiro.authz.annotation.RequiresPermissions;

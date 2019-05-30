@@ -19,6 +19,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import javax.servlet.Filter;
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -45,11 +46,13 @@ public class ShiroConfig {
 		shiroFilterFactoryBean.setSecurityManager(securityManager);
 
 		//获取filters
-		Map<String, Filter> filters = shiroFilterFactoryBean.getFilters();
+		// 添加自己的过滤器并且取名为jwt
+		Map<String, Filter> filters = new HashMap<>();
 		//将自定义的FormAuthenticationFilter注入shiroFilter中（验证码校验）
 		filters.put("authc", new CustomFormAuthenticationFilter());
 		//限制同一帐号同时在线的个数。
 		filters.put("kickout", kickoutSessionControlFilter());
+		shiroFilterFactoryBean.setFilters(filters);
 
 		//拦截器.
 		Map<String,String> filterChainDefinitionMap = new LinkedHashMap<>();

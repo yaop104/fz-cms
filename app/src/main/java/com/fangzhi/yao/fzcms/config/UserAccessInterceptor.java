@@ -10,7 +10,6 @@ import com.fangzhi.yao.fzcms.log.Log;
 import com.fangzhi.yao.fzcms.log.LogFactory;
 import com.fangzhi.yao.fzcms.util.GsonUtil;
 import com.fangzhi.yao.fzcms.util.Utils;
-import org.apache.shiro.SecurityUtils;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
@@ -71,11 +70,11 @@ public class UserAccessInterceptor extends HandlerInterceptorAdapter {
 
     private void initRequestContext(HttpServletRequest request) {
         // 登录时 sessionId 由 uuid 生成并写入 cookie，之后都来自 kong 传入的 Header
-        UserInfo userInfo = (UserInfo)SecurityUtils.getSubject().getPrincipal();
-        Integer adminId = Optional.ofNullable(userInfo).map(User::getId).orElse(0);
+//        UserInfo userInfo = (UserInfo)SecurityUtils.getSubject().getPrincipal();
+        Integer adminId = Optional.ofNullable(new UserInfo()).map(User::getId).orElse(0);
 
         // 无法从 header 中获取 adminId，就从尝试通过 sessionId 获取 redis 中的 admin 信息
-        request.setAttribute(ADMIN_ID, adminId);
+        request.setAttribute(ADMIN_ID, Long.valueOf(adminId));
     }
 
     private void initDjContext(HttpServletRequest request) {

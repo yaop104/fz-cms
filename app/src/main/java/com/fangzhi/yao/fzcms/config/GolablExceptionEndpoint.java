@@ -5,14 +5,14 @@ import com.fangzhi.yao.fzcms.ex.BusinessException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.web.ErrorAttributes;
-import org.springframework.boot.autoconfigure.web.ErrorController;
+import org.springframework.boot.web.servlet.error.ErrorAttributes;
+import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.context.request.RequestAttributes;
-import org.springframework.web.context.request.ServletRequestAttributes;
+import org.springframework.web.context.request.ServletWebRequest;
+import org.springframework.web.context.request.WebRequest;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
@@ -25,7 +25,7 @@ import java.util.Map;
  *
  */
 @RestController
-public class GolablExceptionEndpoint implements ErrorController{
+public class GolablExceptionEndpoint implements ErrorController {
 
     private Logger log = LoggerFactory.getLogger(this.getClass());
 
@@ -57,7 +57,7 @@ public class GolablExceptionEndpoint implements ErrorController{
      * @return
      */
     private ResultInfo<Object> handlerError(HttpServletRequest request, boolean includeStackTrace) {
-        RequestAttributes requestAttributes = new ServletRequestAttributes(request);
+        WebRequest requestAttributes = new ServletWebRequest(request);
         Throwable e = errorAttributes.getError(requestAttributes);
 
         Map<String, Object> data = errorAttributes.getErrorAttributes(requestAttributes, includeStackTrace);

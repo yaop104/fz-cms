@@ -1,12 +1,12 @@
 package com.fangzhi.yao.fzcms.api;
 
-import com.alibaba.dubbo.config.annotation.Reference;
 import com.fangzhi.yao.fzcms.dto.ResultInfo;
 import com.fangzhi.yao.fzcms.dto.third.SmsMessage;
 import com.fangzhi.yao.fzcms.ex.BusinessException;
 import com.fangzhi.yao.fzcms.service.ISendMessageService;
 import com.fangzhi.yao.fzcms.util.RegexValidateUtil;
 import com.fangzhi.yao.fzcms.util.StringUtils;
+import org.apache.dubbo.config.annotation.Reference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestBody;

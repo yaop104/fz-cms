@@ -111,12 +111,18 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
+        </dependency>
+        <!--redis-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <!--连接池，redis依赖-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
         </dependency>
         <!-- Dubbo Spring Boot Starter -->
         <dependency>
@@ -163,11 +169,11 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.44</version>
         </dependency>
-        <dependency>
-            <groupId>com.101tec</groupId>
-            <artifactId>zkclient</artifactId>
-            <version>0.10</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.101tec</groupId>-->
+            <!--<artifactId>zkclient</artifactId>-->
+            <!--<version>0.10</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -255,7 +261,6 @@
             <artifactId>nacos-config-spring-boot-actuator</artifactId>
             <version>${nacos-config-spring-boot.version}</version>
         </dependency>
-
 
     </dependencies>
 
