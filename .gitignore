@@ -1,0 +1,54 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Maven template
+target/
+build/
+classes/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+.idea/
+
+## File-based project format:
+*.iws
+*.iml
+*.ipr
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+.project
+.classpath
+.settings/
+classes/
+.idea/
+bin/
+out/
+target/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# log
+logs/
+
+# vi
+*.swp
+
+# ios
+.DS_Store
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
