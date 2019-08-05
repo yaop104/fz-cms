@@ -2,7 +2,599 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be174a7-ef4c-47ae-ae4e-a338bbdc8390" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_jpush_api_jiguang_common_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_jpush_api_jpush_client_3_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_2_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_2_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generate_2_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_support_2_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatisplus_spring_boot_starter_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_axet_kaptcha_0_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_theborakompanioni_thymeleaf_extras_shiro_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_happy_dns_java_0_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_authzserver_0_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_common_0_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_resourceserver_0_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_3_7_v20160115.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/base/BaseObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/code/ConstantYao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/code/ResourceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/DirectoryInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/EnumInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/MenuInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/PermissionInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/ResultInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/RoleInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/third/MessageBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/third/PushMessageDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/third/SmsMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/token/JwtToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/token/PrintAccessToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/user/UserInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/SendMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/ex/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/service/IClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/service/IPermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/service/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/service/ISendMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/util/CommonAsserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/util/ExceptionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/util/HttpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/util/RegexValidateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/util/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/base/BaseObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/code/ConstantYao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/code/ResourceType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/dto/DirectoryInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/dto/EnumInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/dto/MenuInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/dto/PermissionInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/dto/ResultInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/dto/RoleInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/dto/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/dto/third/MessageBody.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/dto/third/PushMessageDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/dto/third/SmsMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/dto/token/JwtToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/dto/token/PrintAccessToken.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/dto/user/UserInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/entity/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/entity/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/entity/SendMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/ex/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/service/IClientService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/service/IPermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/service/IRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/service/ISendMessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/util/CommonAsserts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/util/ExceptionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/util/HttpUtils$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/util/HttpUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/util/RegexValidateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/target/classes/com/fangzhi/yao/fzcms/util/StringUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/ApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/api/ApiHomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/api/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/api/SendMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/CustomRedisManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/GolablExceptionEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/JwtFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/ShiroTokenRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/WebLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/util/PasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/validator/user/UserValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/ApiApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/api/ApiHomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/api/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/api/SendMessageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/config/CustomRedisManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/config/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/config/GolablExceptionEndpoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/config/JwtFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/config/ShiroConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/config/ShiroTokenRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/config/WebLogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/util/JwtUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/util/PasswordEncoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/com/fangzhi/yao/fzcms/validator/user/UserValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/target/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/CustomFormAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/ShiroConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/ShiroRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/WebLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/CaptchaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/IconController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/MainSiteErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/database/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/images/face.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/images/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/icon/icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/modules/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/modules/bodyTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/modules/treetable/treetable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/modules/treetable/treetable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/modules/xtree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/permission/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/permission/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/role/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/role/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/user/center.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/user/change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/user/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/js/user/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/error/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/error/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/icon/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/permission/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/permission/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/role/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/role/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/user/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/user/change.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/user/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/templates/user/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/config/CustomFormAuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/config/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/config/ShiroConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/config/ShiroRealm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/config/WebLogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/web/BaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/web/CaptchaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/web/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/web/IconController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/web/MainSiteErrorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/web/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/web/PermissionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/web/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/fangzhi/yao/fzcms/web/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/database/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/images/face.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/images/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/icon/icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/bodyTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/treetable/treetable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/treetable/treetable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/modules/xtree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/permission/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/permission/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/role/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/role/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/user/center.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/user/change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/user/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/js/user/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/error/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/error/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/error/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/icon/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/permission/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/permission/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/role/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/role/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/user/center.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/user/change.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/user/info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/target/classes/templates/user/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fz-cms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/provider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/ServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/config/AutoMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/config/ServiceLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/config/third/FzPush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/config/third/FzQiniu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/config/third/FzSms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/mapper/ClientMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/mapper/SendMessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/repo/SendMessageRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl/ClientServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl/SendMessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/thirdparty/push/JpushClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/thirdparty/push/PushService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/thirdparty/push/impl/JpushServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/thirdparty/qiniu/PicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/thirdparty/qiniu/impl/QiniuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/thirdparty/sms/SmsSendMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/thirdparty/sms/impl/SendMessageImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/config/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/config/pic.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/config/push.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/mapper/ClientMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/mapper/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/mapper/SendMessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/ServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/config/AutoMetaObjectHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/config/RedisConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/config/ServiceLogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/config/third/FzPush.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/config/third/FzQiniu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/config/third/FzSms.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/mapper/ClientMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/mapper/PermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/mapper/SendMessageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/repo/SendMessageRepo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/service/impl/ClientServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/service/impl/PermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/service/impl/SendMessageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/thirdparty/push/JpushClientUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/thirdparty/push/PushService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/thirdparty/push/impl/JpushServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/thirdparty/qiniu/PicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/thirdparty/qiniu/impl/QiniuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/thirdparty/sms/SmsSendMessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/com/fangzhi/yao/fzcms/thirdparty/sms/impl/SendMessageImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/config/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/config/pic.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/config/push.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/mapper/ClientMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/mapper/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/mapper/SendMessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/target/classes/rebel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/src/main/java/com/fangzhi/yao/fzcms/tools/generator/AutoGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/src/main/java/com/fangzhi/yao/fzcms/tools/generator/DefaultGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/src/main/java/com/fangzhi/yao/fzcms/tools/generator/TyqxCmsGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/src/main/resources/templates/controller.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/src/main/resources/templates/entity.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/src/main/resources/templates/mapper.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/src/main/resources/templates/mapper.xml.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/src/main/resources/templates/service.java.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/src/main/resources/templates/serviceImpl.java.vm" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../gradle/.gradle/3.4/file-changes/last-build.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../gradle/.gradle/3.4/taskHistory/fileSnapshots.bin" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../gradle/.gradle/3.4/taskHistory/taskHistory.bin" afterDir="false" />
@@ -4147,14 +4739,8 @@
       <change afterPath="$PROJECT_DIR$/../tyqx-cms-base_1015.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tyqx-cms-web.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tyqx-cms.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fz-cms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fz-cms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -4189,94 +4775,79 @@
     <expand />
     <select />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application.properties">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/util/ImageDrawHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="130">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/api/ApiHomeController.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/render/ReleatePositionDrawTextItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+            <state relative-caret-position="150">
+              <caret line="26" column="61" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/ImageRender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/im4java/ImageUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/thirdparty/qiniu/impl/QiniuServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/im4java/SimpleimageUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="-998">
+              <caret line="32" column="60" lean-forward="true" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#18157#18158#0" expanded="true" />
+                <element signature="e#18194#18195#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/GlobalExceptionHandler.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/awt/Font.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+            <state relative-caret-position="163">
+              <caret line="311" column="28" selection-start-line="311" selection-start-column="28" selection-end-line="311" selection-end-column="28" />
+              <folding>
+                <element signature="e#50785#50786#0" expanded="true" />
+                <element signature="e#50838#50839#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/GolablExceptionEndpoint.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/awt/Color.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/UserWebAppConfigurer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/UserAccessInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="76" column="62" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/CustomFormAuthenticationFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/SessionControlFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/api/SendMessageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="163">
+              <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -4294,9 +4865,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>EXPIRE_TIME</find>
-      <find>20881</find>
-      <find>doGetAuthorizationInfo</find>
       <find>fastjson</find>
       <find>isEmpty</find>
       <find>log4j</find>
@@ -4324,6 +4892,9 @@
       <find>shiroRealm</find>
       <find>com.fangzhi.yao</find>
       <find>loginWithPassword</find>
+      <find>PlanarImage</find>
+      <find>_remote.repositories</find>
+      <find>FootnoteDrawTextItem</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -4336,9 +4907,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl/DictionaryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl/OrgServiceImpl.java" />
-        <option value="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl/PermissionServiceImpl.java" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl/SendMessageServiceImpl.java" />
         <option value="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl/UserServiceImpl.java" />
@@ -4365,7 +4933,6 @@
         <option value="$PROJECT_DIR$/provider/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/provider/src/main/resources/application-prod.properties" />
         <option value="$PROJECT_DIR$/consumer/src/main/resources/application-prod.properties" />
-        <option value="$PROJECT_DIR$/consumer/pom.xml" />
         <option value="$PROJECT_DIR$/api/pom.xml" />
         <option value="$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/context/ProviderContextFilter.java" />
         <option value="$PROJECT_DIR$/app/pom.xml" />
@@ -4387,6 +4954,10 @@
         <option value="$PROJECT_DIR$/logs/service.log" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/api/ApiHomeController.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/im4java/Im4JavaUtils.java" />
+        <option value="$PROJECT_DIR$/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/im4java/ImageUtils.java" />
+        <option value="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/im4java/SimpleimageUtils.java" />
       </list>
     </option>
   </component>
@@ -4396,7 +4967,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../tools/maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -4407,37 +4979,30 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="provider" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="provider" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="consumer" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="229" />
-    <option name="y" value="164" />
-    <option name="width" value="1407" />
-    <option name="height" value="749" />
+    <option name="x" value="62" />
+    <option name="y" value="36" />
+    <option name="width" value="1190" />
+    <option name="height" value="659" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -4449,7 +5014,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -4460,75 +5024,91 @@
             <path>
               <item name="fz-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="fz-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fz-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="fz-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fz-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="fz-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fz-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fz-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fz-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="fz-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fzcms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fz-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="fz-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fzcms" type="462c0819:PsiDirectoryNode" />
-              <item name="thirdparty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fz-cms" type="b2602c69:ProjectViewProjectNode" />
               <item name="fz-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fzcms" type="462c0819:PsiDirectoryNode" />
-              <item name="thirdparty" type="462c0819:PsiDirectoryNode" />
-              <item name="qiniu" type="462c0819:PsiDirectoryNode" />
+              <item name="im4java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fz-cms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fz-cms" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fzcms" type="462c0819:PsiDirectoryNode" />
-              <item name="thirdparty" type="462c0819:PsiDirectoryNode" />
-              <item name="qiniu" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="fz-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba:simpleimage:1.2.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="fz-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba:simpleimage:1.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="simpleimage-1.2.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fz-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba:simpleimage:1.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="simpleimage-1.2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleimage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fz-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba:simpleimage:1.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="simpleimage-1.2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleimage" type="462c0819:PsiDirectoryNode" />
+              <item name="render" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fz-cms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba:simpleimage:1.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="simpleimage-1.2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleimage" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4547,32 +5127,32 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.side.proportion" value="0.44917464" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/resources/META-INF/dubbo" />
-      <recent name="$PROJECT_DIR$/app/src/main/resources/META-INF" />
-      <recent name="$PROJECT_DIR$/provider/src/main/resources" />
-      <recent name="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web" />
-      <recent name="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.fangzhi.yao.fzcms.config" />
-      <recent name="com.fangzhi.yao.fzcms.util" />
-      <recent name="com.fangzhi.yao.fzcms.generator" />
-      <recent name="com.fangzhi.yao.fzcms.code" />
-      <recent name="com.fangzhi.yao.fzcms.context" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/src/main/resources/META-INF.dubbo" />
       <recent name="$PROJECT_DIR$/app/src/main/resources" />
       <recent name="$PROJECT_DIR$/consumer/src/main/resources" />
       <recent name="$PROJECT_DIR$/provider/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fangzhi.yao.fzcms.im4java" />
+      <recent name="com.fangzhi.yao.fzcms.config" />
+      <recent name="com.fangzhi.yao.fzcms.util" />
+      <recent name="com.fangzhi.yao.fzcms.generator" />
+      <recent name="com.fangzhi.yao.fzcms.code" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/resources/META-INF/dubbo" />
+      <recent name="$PROJECT_DIR$/app/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/provider/src/main/resources" />
+      <recent name="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web" />
+      <recent name="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/service/impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -4587,7 +5167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiApplication">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.netty.Client" />
       <module name="consumer" />
@@ -4595,6 +5175,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fangzhi.yao.fzcms.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.im4java.ImageUtils" />
+      <module name="consumer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fangzhi.yao.fzcms.im4java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -4616,13 +5210,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.mq.Test" />
+    <configuration name="SimpleimageUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.im4java.SimpleimageUtils" />
       <module name="consumer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fangzhi.yao.fzcms.mq.*" />
+          <option name="PATTERN" value="com.fangzhi.yao.fzcms.im4java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -4630,13 +5224,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TyqxCmsGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.tools.generator.TyqxCmsGenerator" />
-      <module name="tools" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.mq.Test" />
+      <module name="consumer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fangzhi.yao.fzcms.tools.generator.*" />
+          <option name="PATTERN" value="com.fangzhi.yao.fzcms.mq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -4793,20 +5387,22 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.TyqxCmsGenerator" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.SimpleimageUtils" />
+      <item itemvalue="Application.ImageUtils" />
       <item itemvalue="Spring Boot.ApiApplication" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.ServiceApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleimageUtils" />
+        <item itemvalue="Application.ImageUtils" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TyqxCmsGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -4896,12 +5492,15 @@
       <workItem from="1559140994398" duration="2335000" />
       <workItem from="1559186270661" duration="7025000" />
       <workItem from="1559553530216" duration="3393000" />
-      <workItem from="1563256916378" duration="1101000" />
+      <workItem from="1563256916378" duration="2183000" />
+      <workItem from="1563349783638" duration="1469000" />
+      <workItem from="1563358053429" duration="2924000" />
+      <workItem from="1563431703571" duration="18429000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="609451000" />
+    <option name="totallyTimeSpent" value="633355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -4913,11 +5512,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="229" y="164" width="1407" height="749" extended-state="0" />
+    <frame x="516" y="53" width="1367" height="889" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3934066" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29660377" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
@@ -4925,37 +5523,38 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
       <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49633026" weight="0.4977169" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49633026" weight="0.35257214" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49353796" weight="0.552" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49353796" weight="0.42910916" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50646204" side_tool="true" weight="0.47751322" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.493578" visible="true" weight="0.33028919" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.493578" weight="0.33028919" />
       <window_info anchor="bottom" id="Problems" order="11" weight="0.32919255" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32453415" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32371393" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Properties" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32967034" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32881355" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.53311795" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.3290566" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.381685" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29660377" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Designer" order="3" />
@@ -4963,30 +5562,35 @@
       <window_info id="Image Layers" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3280757" />
       <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49633026" visible="true" weight="0.4977169" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49633026" weight="0.35257214" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49353796" weight="0.552" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.49353796" weight="0.42910916" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50646204" side_tool="true" weight="0.47751322" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.493578" weight="0.6697108" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.493578" weight="0.33028919" />
       <window_info anchor="bottom" id="Problems" order="11" weight="0.32919255" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32453415" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32371393" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Properties" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32967034" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32881355" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.53311795" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.3290566" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -5006,6 +5610,18 @@
           <properties />
           <option name="timeStamp" value="185" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/render/CornerDrawTextItem.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/im4java/SimpleimageUtils.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -5024,291 +5640,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/axet/kaptcha/0.0.9/kaptcha-0.0.9.jar!/com/google/code/kaptcha/Constants.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="51" column="53" lean-forward="true" selection-start-line="51" selection-start-column="53" selection-end-line="51" selection-end-column="53" />
-          <folding>
-            <element signature="e#6652#6653#0" expanded="false" />
-            <element signature="e#6698#6699#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/util/JwtUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/ApiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/ShiroRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="20" selection-start-line="20" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/UserInfoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="7" selection-start-line="7" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/UserInfoConfig.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/ShiroTokenRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/resources/app-config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="143" column="21" selection-start-line="139" selection-start-column="8" selection-end-line="143" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/resources/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/resources/META-INF/dubbo/com.alibaba.dubbo.rpc.Filter">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/UserAccessInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="76" column="62" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/app-log.log" />
-    <entry file="file://$PROJECT_DIR$/logs/app-error.log" />
-    <entry file="file://$PROJECT_DIR$/logs/ibatis.log" />
-    <entry file="file://$PROJECT_DIR$/logs/mqdispacher.log" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/validator/user/UserValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/context/ProviderContextFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="76" column="37" lean-forward="true" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/context/ConsumerContextFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/bind/annotation/RequestBody.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/base/BaseObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/dto/user/UserInfoDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/service/ISendMessageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/service.log" />
-    <entry file="file://$PROJECT_DIR$/logs/interface.log" />
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/thirdparty/push/JpushClientUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4995">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/thirdparty/sms/impl/SendMessageImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/thirdparty/qiniu/PicService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qiniu/qiniu-java-sdk/7.2.11/qiniu-java-sdk-7.2.11.jar!/com/qiniu/util/Auth.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/thirdparty/push/impl/JpushServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1545" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/GolablExceptionEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/UserWebAppConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/UserAccessInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="76" column="62" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/CustomFormAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/SessionControlFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/api/SendMessageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/GlobalExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -5330,10 +5661,418 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web/OrgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/CustomFormAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0.jar!/com/alibaba/simpleimage/util/ImageScaleHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/thirdparty/qiniu/impl/QiniuServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        <state relative-caret-position="345">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/log/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/fangzhi/yao/fzcms/log/LogFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/util/ImageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2539">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/util/NodeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1400">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/util/PaletteBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5900">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/SimpleImageException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/MetadataRenderedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/render/WriteParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/render/CropParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/util/JAIRegisterHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/util/IndexImageBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/util/ImageReadHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/util/ImageWriteHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="48" column="97" lean-forward="true" selection-start-line="48" selection-start-column="97" selection-end-line="48" selection-end-column="97" />
+          <folding>
+            <element signature="e#0#8904#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2223#2324#0" />
+            <element signature="e#2347#2413#0" />
+            <element signature="e#3580#3964#1" />
+            <element signature="e#3997#4196#1" />
+            <element signature="e#4428#4824#1" />
+            <element signature="e#4856#5061#1" />
+            <element signature="e#5286#5342#1" />
+            <element signature="e#6278#6631#0" />
+            <element signature="e#6654#6720#0" />
+            <element signature="e#6729#6795#0" />
+            <element signature="e#7028#7178#1" />
+            <element signature="e#7242#7331#1" />
+            <element signature="e#7764#8584#1" />
+            <element signature="e#8836#8885#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/util/ImageScaleHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="116" column="30" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/util/ImageLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/util/ImageCropHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/render/WatermarkParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/awt/Composite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="1178" column="21" selection-start-line="1178" selection-start-column="11" selection-end-line="1178" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/awt/RenderingHints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="218" column="28" selection-start-line="218" selection-start-column="28" selection-end-line="218" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/media/jai_core/1.1.4/jai_core-1.1.4.jar!/javax/media/jai/GraphicsJAI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="198" column="16" selection-start-line="198" selection-start-column="16" selection-end-line="198" selection-end-column="16" />
+          <folding>
+            <element signature="e#6065#6066#0" expanded="true" />
+            <element signature="e#6109#6110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/render/FootnoteDrawTextItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="51" selection-start-line="51" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/render/CornerDrawTextItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/render/FixDrawTextItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="178" column="40" lean-forward="true" selection-start-line="177" selection-start-column="8" selection-end-line="178" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/render/WriteRender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="176" column="18" selection-start-line="176" selection-start-column="18" selection-end-line="176" selection-end-column="18" />
+          <folding>
+            <element signature="e#4082#4083#0" expanded="true" />
+            <element signature="e#4141#4142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/render/DrawTextParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/ImageWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2519">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#3368#3369#0" expanded="true" />
+            <element signature="e#3412#3413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="255" column="26" selection-start-line="255" selection-start-column="26" selection-end-line="255" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/awt/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/awt/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="881" column="28" selection-start-line="881" selection-start-column="28" selection-end-line="881" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/awt/Graphics2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="666" column="25" selection-start-line="666" selection-start-column="25" selection-end-line="666" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/awt/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/awt/Font.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="311" column="28" selection-start-line="311" selection-start-column="28" selection-end-line="311" selection-end-column="28" />
+          <folding>
+            <element signature="e#50785#50786#0" expanded="true" />
+            <element signature="e#50838#50839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.alibaba.simpleimage.ImageRender">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.alibaba.simpleimage.ImageRender</OriginalElement>
+          <nodes>
+            <node x="" y="">com.alibaba.simpleimage.ImageRender</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="94.5" y="35.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.alibaba.simpleimage.util.ImageDrawHelper">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.alibaba.simpleimage.util.ImageDrawHelper</OriginalElement>
+          <nodes>
+            <node x="" y="">com.alibaba.simpleimage.util.ImageDrawHelper</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="75.5" y="13.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/render/DrawTextRender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.alibaba.simpleimage.render.DrawTextRender">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.alibaba.simpleimage.render.DrawTextRender</OriginalElement>
+          <nodes>
+            <node x="" y="">com.alibaba.simpleimage.ImageRender</node>
+            <node x="" y="">com.alibaba.simpleimage.render.DrawTextRender</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="72.0" y="51.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/render/DrawTextItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/util/ImageDrawHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/render/ReleatePositionDrawTextItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/ImageRender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/simpleimage/1.2.0/simpleimage-1.2.0-sources.jar!/com/alibaba/simpleimage/util/ImageColorConvertHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="196" column="67" lean-forward="true" selection-start-line="196" selection-start-column="12" selection-end-line="196" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/im4java/ImageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/im4java/SimpleimageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-998">
+          <caret line="32" column="60" lean-forward="true" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#18157#18158#0" expanded="true" />
+            <element signature="e#18194#18195#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -5347,7 +6086,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.44917464" />
               </list>
             </option>
           </splitter-proportions>
@@ -5359,7 +6098,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.44917464" />
               </list>
             </option>
           </splitter-proportions>
@@ -5367,10 +6106,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>generater</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.44917464" />
               </list>
             </option>
           </splitter-proportions>
@@ -5382,7 +6122,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.44917464" />
               </list>
             </option>
           </splitter-proportions>
@@ -5390,11 +6130,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JRebel|consumer</last-edited>
+          <last-edited>consumer</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.44917464" />
               </list>
             </option>
           </splitter-proportions>
@@ -5414,11 +6154,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <last-edited>Maven: ch.qos.logback:logback-access:1.1.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.44917464" />
               </list>
             </option>
           </splitter-proportions>
