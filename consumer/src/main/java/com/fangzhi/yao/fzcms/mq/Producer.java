@@ -26,7 +26,7 @@ public class Producer {
         }
 
         if(initialState == 0){
-            producer.setNamesrvAddr("118.24.246.125:9876");
+            producer.setNamesrvAddr("172.19.205.68:9876");
             try {
                 producer.start();
             } catch (MQClientException e) {

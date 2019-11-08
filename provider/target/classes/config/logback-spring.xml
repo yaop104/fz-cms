@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration debug="true" scan="false" scanPeriod="30 seconds">
+    <contextName>cms-engine</contextName>
+
+    <property name="catalina.home" value="./logs" />
+
+    <conversionRule conversionWord="traceId" converterClass="com.fangzhi.yao.fzcms.log.converter.TraceIdConverter" />
+    <conversionRule conversionWord="spanId" converterClass="com.fangzhi.yao.fzcms.log.converter.SpanIdConverter" />
+    <conversionRule conversionWord="ipAddr" converterClass="com.fangzhi.yao.fzcms.log.converter.IpAddrConverter" />
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] %cn %-5p %m [%t] %c.%M\(%L\)%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="STDOUT-ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>512</queueSize>
+        <includeCallerData>true</includeCallerData>
+        <appender-ref ref="STDOUT" />
+    </appender>
+
+    <appender name="SERVICE-OUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${catalina.home}/service.log</file>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] %cn[%ipAddr] %-5p %traceId %spanId %m [%t] %c.%M\(%L\) %n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${catalina.home}/service.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <appender name="SERVICE-OUT-ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>3</queueSize>
+        <includeCallerData>true</includeCallerData>
+        <appender-ref ref="SERVICE-OUT" />
+    </appender>
+
+    <appender name="INTERFACE-OUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${catalina.home}/interface.log</file>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] %cn[%ipAddr] %-5p %traceId %spanId %m%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${catalina.home}/interface.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <appender name="INTERFACE-OUT-ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>3</queueSize>
+        <includeCallerData>true</includeCallerData>
+        <appender-ref ref="INTERFACE-OUT" />
+    </appender>
+
+    <appender name="SQL-OUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${catalina.home}/ibatis.log</file>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] %cn %-5p %m [%t] %c.%M\(%L\)%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${catalina.home}/sql.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <appender name="SQL-OUT-ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>512</queueSize>
+        <includeCallerData>true</includeCallerData>
+        <appender-ref ref="SQL-OUT" />
+    </appender>
+
+    <appender name="TASKDISPACHER-OUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${catalina.home}/taskdispacher.log</file>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] %cn[%ipAddr] %-5p %traceId %spanId %m [%t] %c.%M\(%L\)%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${catalina.home}/taskdispacher.%d{yyyy-MM-dd}.log.gz
+            </fileNamePattern>
+            <maxHistory>10</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <appender name="TASKDISPACHER-OUT-ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>3</queueSize>
+        <includeCallerData>true</includeCallerData>
+        <appender-ref ref="TASKDISPACHER-OUT" />
+    </appender>
+
+
+    <appender name="MQDISPACHER-OUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${catalina.home}/mqdispacher.log</file>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%t] %cn[%ipAddr] %-5p %traceId %spanId %m%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${catalina.home}/mqdispacher.%d{yyyy-MM-dd}.log.gz
+            </fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <appender name="MQDISPACHER-OUT-ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>1</queueSize>
+        <includeCallerData>true</includeCallerData>
+        <appender-ref ref="MQDISPACHER-OUT" />
+    </appender>
+
+    <logger level="info" name="com.fangzhi.yao.fzcms">
+        <appender-ref ref="SERVICE-OUT-ASYNC" />
+    </logger>
+    <logger level="info" name="com.fangzhi.yao.fzcms.mapper" additivity="false">
+        <appender-ref ref="SQL-OUT-ASYNC" />
+    </logger>
+    <logger level="info" name="interface" additivity="false">
+        <appender-ref ref="INTERFACE-OUT-ASYNC" />
+    </logger>
+    <logger level="info" name="taskdispacher" additivity="false">
+        <appender-ref ref="TASKDISPACHER-OUT-ASYNC"/>
+    </logger>
+    <logger level="info" name="mqdispacher" additivity="false">
+        <appender-ref ref="MQDISPACHER-OUT-ASYNC"/>
+    </logger>
+    <root level="WARN">
+        <appender-ref ref="STDOUT-ASYNC" />
+    </root>
+</configuration>

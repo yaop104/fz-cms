@@ -19,7 +19,7 @@ public class ServiceLogAspect {
 
 	ThreadLocal<Long> startTime = new ThreadLocal<>();
 
-	@Pointcut("execution(public * com.xieke.test.tyqxcms.service..*.*(..))")
+	@Pointcut("execution(public * com.fangzhi.yao.fzcms.service..*.*(..))")
 	public void serviceLog() {
 	}
 

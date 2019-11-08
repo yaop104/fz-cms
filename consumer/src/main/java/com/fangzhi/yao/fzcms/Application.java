@@ -6,10 +6,12 @@ import com.google.code.kaptcha.util.Config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
 import java.util.Properties;
 
+@EnableConfigurationProperties
 @SpringBootApplication
 public class Application {
 

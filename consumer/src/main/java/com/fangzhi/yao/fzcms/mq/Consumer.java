@@ -26,7 +26,7 @@ public class Consumer {
         }
 
         if(initialState == 0){
-            consumer.setNamesrvAddr("118.24.246.125:9876");
+            consumer.setNamesrvAddr("172.19.205.68:9876");
             consumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_FIRST_OFFSET);
             initialState = 1;
         }
