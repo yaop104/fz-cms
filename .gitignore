@@ -1,0 +1,34 @@
+# Gradle temporary files
+.gradle/
+build/
+classes/
+target/
+
+# IDE
+*.iml
+*.ipr
+*.iws
+*.ids
+.project
+.classpath
+.settings/
+.idea/
+bin/
+out/
+
+# log
+logs/
+
+# vi
+*.swp
+
+# ios
+.DS_Store
+
+# disconf
+
+# generater config
+/.idea/
+/target/
+/out/
+/.gradle/
