@@ -124,17 +124,6 @@
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-iot -->
-        <dependency>
-            <groupId>com.aliyun</groupId>
-            <artifactId>aliyun-java-sdk-iot</artifactId>
-            <version>7.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.aliyun</groupId>
-            <artifactId>aliyun-java-sdk-core</artifactId>
-            <version>3.5.1</version>
-        </dependency>
     </dependencies>
 
     <build>

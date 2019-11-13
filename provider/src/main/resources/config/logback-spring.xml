@@ -102,6 +102,32 @@
         <appender-ref ref="MQDISPACHER-OUT" />
     </appender>
 
+    <appender name="IOT-STDOUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${catalina.home}/iot.log</file>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%t] %cn[%ipAddr] %-5p %traceId %spanId %m%n</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${catalina.home}/iot.%d{yyyy-MM-dd}.log.gz
+            </fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <appender name="IOT-STDOUT-ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>1</queueSize>
+        <includeCallerData>true</includeCallerData>
+        <appender-ref ref="IOT-STDOUT" />
+    </appender>
+
+
+    <logger name="com.aliyun" level="info" additivity="false">
+        <appender-ref ref="IOT-STDOUT"/>
+    </logger>
+
+    <root level="info">
+        <appender-ref ref="IOT-STDOUT"/>
+    </root>
+
     <logger level="info" name="com.fangzhi.yao.fzcms">
         <appender-ref ref="SERVICE-OUT-ASYNC" />
     </logger>

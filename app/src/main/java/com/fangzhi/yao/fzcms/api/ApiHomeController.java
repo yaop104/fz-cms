@@ -24,9 +24,9 @@ import java.util.Date;
 @RestController
 public class ApiHomeController extends BaseController{
 
-    @Reference(version = "1.0.0")
+    @Reference(version = "1.0.0", check = false)
     private IUserService iUserService;
-    @Reference(version = "1.0.0")
+    @Reference(version = "1.0.0", check = false)
     private ISendMessageService iSendMessageService;
 
     @RequestMapping("/loginCode")

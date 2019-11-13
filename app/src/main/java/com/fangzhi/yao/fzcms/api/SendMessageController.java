@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/sendMessage")
 public class SendMessageController extends BaseController{
 
-    @Reference(version = "1.0.0")
+    @Reference(version = "1.0.0", check = false)
     private ISendMessageService iSendMessageService;
 
     private Logger logger = LoggerFactory.getLogger(this.getClass());

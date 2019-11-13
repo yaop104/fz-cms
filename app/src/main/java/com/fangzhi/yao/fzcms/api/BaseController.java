@@ -48,5 +48,24 @@ public class BaseController {
         return json;
     }
 
+    /**
+     * 字符串转换成JSON
+     *
+     * @param data
+     * @return
+     */
+    protected ResultInfo resOk( Object data) {
+        return this.respMessage("1","", data);
+    }
+
+    /**
+     * 字符串转换成JSON
+     *
+     * @return
+     */
+    protected ResultInfo resOk() {
+        return this.respMessage("1","", null);
+    }
+
 
 }

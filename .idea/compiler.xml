@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="consumer" />
         <module name="api" />
-        <module name="app" />
         <module name="provider" />
+        <module name="app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="iot" target="1.8" />
+      <module name="iot-java-sdk" target="1.8" />
       <module name="tyqx-cms" target="1.8" />
     </bytecodeTargetLevel>
   </component>

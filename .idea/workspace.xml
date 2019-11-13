@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be174a7-ef4c-47ae-ae4e-a338bbdc8390" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_4_0_9.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_jpush_api_jiguang_common_1_1_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_jpush_api_jpush_client_3_3_8.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_4_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_2_1_6.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_2_1_6.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generate_2_1_6.xml" afterDir="false" />
@@ -24,20 +22,15 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_3_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_8_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_6_Final.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_5.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_44.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_authzserver_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_common_0_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_resourceserver_0_31.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_4_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_4_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_3_7_v20160115.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
@@ -50,7 +43,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/.idea/compiler.xml" afterDir="false" />
@@ -4736,7 +4728,45 @@
       <change afterPath="$PROJECT_DIR$/../tyqx-cms-base_1015.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tyqx-cms-web.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tyqx-cms.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_6_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_authzserver_0_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_common_0_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_oltu_oauth2_org_apache_oltu_oauth2_resourceserver_0_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/api/ApiHomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/api/ApiHomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/api/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/api/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/api/SendMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/api/SendMessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/ShiroTokenRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/ShiroTokenRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/UserAccessInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/UserAccessInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/UserWebAppConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/config/UserWebAppConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/classes/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/service-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/service-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/service-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/service-log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/service.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/resources/config/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/config/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/application-prod.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/target/classes/config/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/target/classes/config/logback-spring.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -4817,12 +4847,27 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/src/main/resources" />
+      <recent name="$PROJECT_DIR$/app/src/main/resources/config" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/openapi/process" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/fangzhi/yao/fzcms/openapi" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fangzhi.yao.fzcms.iot" />
+      <recent name="com.fangzhi.yao.fzcms.openapi.process" />
+      <recent name="com.fangzhi.yao.fzcms.config" />
+      <recent name="com.fangzhi.yao.fzcms.client" />
+      <recent name="com.fangzhi.yao.fzcms.dto.third" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/provider/src/main/resources" />
       <recent name="$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/web" />
@@ -4830,22 +4875,19 @@
       <recent name="$PROJECT_DIR$/provider/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/provider/src/main/java/com/fangzhi/yao/fzcms/mapper" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.fangzhi.yao.fzcms.websocket" />
-      <recent name="com.fangzhi.yao.fzcms.config" />
-      <recent name="com.fangzhi.yao.fzcms.generator" />
-      <recent name="com.fangzhi.yao.fzcms.code" />
-      <recent name="com.fangzhi.yao.fzcms.util" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/app/src/main/resources/config" />
-      <recent name="$PROJECT_DIR$/consumer/src/main/resources/config" />
-      <recent name="$PROJECT_DIR$/consumer/src/main/resources" />
-      <recent name="$PROJECT_DIR$/provider/src/main/resources/META-INF/dubbo" />
-    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn test" />
+    </option>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -4857,14 +4899,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WebsocketClient">
-    <configuration name="EmptyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.websocket.EmptyClient" />
-      <module name="consumer" />
+  <component name="RunManager" selected="Spring Boot.provider">
+    <configuration name="DeviceProcess (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.openapi.process.DeviceProcess" />
+      <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fangzhi.yao.fzcms.websocket.*" />
+          <option name="PATTERN" value="com.fangzhi.yao.fzcms.openapi.process.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -4872,13 +4914,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketClientEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.websocket.SocketClientEngine" />
-      <module name="consumer" />
+    <configuration name="H2Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.thirdparty.iot.H2Client" />
+      <module name="iot" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fangzhi.yao.fzcms.websocket.*" />
+          <option name="PATTERN" value="com.fangzhi.yao.fzcms.thirdparty.iot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -4886,13 +4928,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.websocket.Test" />
-      <module name="consumer" />
+    <configuration name="H2Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.iot.H2Client" />
+      <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fangzhi.yao.fzcms.websocket.*" />
+          <option name="PATTERN" value="com.fangzhi.yao.fzcms.iot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -4900,13 +4942,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.mq.Test" />
-      <module name="consumer" />
+    <configuration name="H2Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.thirdparty.iot.H2Client" />
+      <module name="provider" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fangzhi.yao.fzcms.mq.*" />
+          <option name="PATTERN" value="com.fangzhi.yao.fzcms.thirdparty.iot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -4914,13 +4956,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebsocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.websocket.WebsocketClient" />
-      <module name="consumer" />
+    <configuration name="StringFixProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fangzhi.yao.fzcms.openapi.process.StringFixProcess" />
+      <module name="app" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fangzhi.yao.fzcms.websocket.*" />
+          <option name="PATTERN" value="com.fangzhi.yao.fzcms.openapi.process.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -4991,7 +5033,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="Api" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="app" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fangzhi.yao.fzcms.ApiApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -5002,7 +5044,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="consumer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fangzhi.yao.fzcms.Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -5013,7 +5055,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="provider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.fangzhi.yao.fzcms.ServiceApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -5043,24 +5085,40 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test (1)" />
-      <item itemvalue="Application.SocketClientEngine" />
-      <item itemvalue="Application.EmptyClient" />
-      <item itemvalue="Application.WebsocketClient" />
-      <item itemvalue="Spring Boot.ApiApplication" />
-      <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.ServiceApplication" />
+      <item itemvalue="Application.H2Client" />
+      <item itemvalue="Application.DeviceProcess (1)" />
+      <item itemvalue="Application.StringFixProcess" />
+      <item itemvalue="Application.H2Client (1)" />
+      <item itemvalue="Application.H2Client (2)" />
+      <item itemvalue="Spring Boot.Api" />
+      <item itemvalue="Spring Boot.consumer" />
+      <item itemvalue="Spring Boot.provider" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WebsocketClient" />
-        <item itemvalue="Application.EmptyClient" />
-        <item itemvalue="Application.SocketClientEngine" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.H2Client (2)" />
+        <item itemvalue="Application.H2Client (1)" />
+        <item itemvalue="Application.H2Client" />
+        <item itemvalue="Application.DeviceProcess (1)" />
+        <item itemvalue="Application.StringFixProcess" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.21177505" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2fa34729" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
@@ -5155,7 +5213,19 @@
       <workItem from="1572785546269" duration="1995000" />
       <workItem from="1573025165012" duration="2129000" />
       <workItem from="1573183834609" duration="159000" />
-      <workItem from="1573184243631" duration="395000" />
+      <workItem from="1573184243631" duration="2854000" />
+      <workItem from="1573271317397" duration="690000" />
+      <workItem from="1573283508427" duration="6388000" />
+      <workItem from="1573289955259" duration="2100000" />
+      <workItem from="1573292365105" duration="2653000" />
+      <workItem from="1573345828304" duration="1474000" />
+      <workItem from="1573347376084" duration="523000" />
+      <workItem from="1573347908377" duration="248000" />
+      <workItem from="1573348166232" duration="1198000" />
+      <workItem from="1573349531288" duration="4060000" />
+      <workItem from="1573649736368" duration="206000" />
+      <workItem from="1573649972788" duration="2532000" />
+      <workItem from="1573655514336" duration="5362000" />
     </task>
     <servers />
   </component>
@@ -5190,20 +5260,12 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/consumer/src/main/java/com/fangzhi/yao/fzcms/config/UserAccessInterceptor.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="173" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="request.getSession().getAttributeNames()" />
         <watch expression="SecurityUtils.getSubject()" />
         <watch expression="userInfo" />
+        <watch expression="((WebDelegatingSubject)SecurityUtils.getSubject()).principals" custom="org.apache.shiro.web.subject.support.WebDelegatingSubject" />
       </configuration>
       <configuration name="Application">
         <watch expression="fzSms" />
@@ -5213,104 +5275,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>api:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web (consumer)|Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>JRebel|consumer</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -18,6 +18,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.reflect.Method;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Optional;
 
 import static com.fangzhi.yao.fzcms.code.ConstantYao.ADMIN_ID;
@@ -72,14 +73,14 @@ public class UserAccessInterceptor extends HandlerInterceptorAdapter {
     private void initRequestContext(HttpServletRequest request) {
         // 登录时 sessionId 由 uuid 生成并写入 cookie，之后都来自 kong 传入的 Header
         UserInfo userInfo = (UserInfo)SecurityUtils.getSubject().getPrincipal();
-        Integer adminId = Optional.ofNullable(userInfo).map(User::getId).orElse(0);
+        Long adminId = Optional.ofNullable(userInfo).map(User::getId).map(Long::new).orElse(0L);
 
         // 无法从 header 中获取 adminId，就从尝试通过 sessionId 获取 redis 中的 admin 信息
         request.setAttribute(ADMIN_ID, adminId);
     }
 
     private void initDjContext(HttpServletRequest request) {
-        Long adminId = (Long) request.getAttribute(ADMIN_ID);
+        Long adminId = Objects.nonNull(request.getAttribute(ADMIN_ID))?(Long) request.getAttribute(ADMIN_ID):0L;
         // 设置请求上下文
         DJContext context = DJContext.getContext();
         context.setAf(DJContext.Af.ADMIN.get());

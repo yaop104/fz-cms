@@ -17,7 +17,7 @@ bin/
 out/
 
 # log
-logs/
+logs/*
 
 # vi
 *.swp

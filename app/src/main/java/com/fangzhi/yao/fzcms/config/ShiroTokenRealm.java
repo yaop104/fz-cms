@@ -24,7 +24,7 @@ import static com.fangzhi.yao.fzcms.code.ConstantYao.NUMBER_TWO;
 @Component
 public class ShiroTokenRealm extends AuthorizingRealm {
 
-    @Reference(version = "1.0.0")
+    @Reference(version = "1.0.0", check = false)
     private IUserService iUserService;
 
     /**

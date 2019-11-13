@@ -49,11 +49,7 @@
       <artifactId>logback-access</artifactId>
       <version>${logback.version}</version>
     </dependency>
-    <dependency> <!-- 引入log4j2依赖 -->
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-log4j2</artifactId>
-      <version>1.5.9.RELEASE</version>
-    </dependency>
+
     <dependency>
       <groupId>com.google.code.gson</groupId>
       <artifactId>gson</artifactId>
@@ -85,7 +81,7 @@
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
-      <version>1.2.31</version>
+      <version>1.2.48</version>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
