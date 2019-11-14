@@ -32,3 +32,4 @@ logs/*
 /target/
 /out/
 /.gradle/
+/provider/src/main/resources/config/
