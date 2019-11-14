@@ -1,9 +1,3 @@
-# Gradle temporary files
-.gradle/
-build/
-classes/
-target/
-
 # IDE
 *.iml
 *.ipr
@@ -17,7 +11,7 @@ bin/
 out/
 
 # log
-logs/*
+logs/
 
 # vi
 *.swp
@@ -25,11 +19,14 @@ logs/*
 # ios
 .DS_Store
 
-# disconf
+#conf
+/provider/src/main/resources/config/
 
 # generater config
 /.idea/
 /target/
 /out/
-/.gradle/
-/provider/src/main/resources/config/
+/provider/target/
+/consumer/target/
+/app/target/
+/api/target/
