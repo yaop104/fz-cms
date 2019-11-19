@@ -20,7 +20,7 @@ logs/
 .DS_Store
 
 #conf
-/provider/src/main/resources/config/
+
 
 # generater config
 /.idea/
