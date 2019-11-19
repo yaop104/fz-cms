@@ -127,7 +127,6 @@
     </dependencies>
 
     <build>
-        <pluginManagement>
             <plugins>
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
@@ -162,7 +161,6 @@
 
             </plugins>
 
-        </pluginManagement>
     </build>
 
     <!-- 项目部署到私服配置
