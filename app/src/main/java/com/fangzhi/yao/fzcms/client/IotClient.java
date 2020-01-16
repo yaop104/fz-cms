@@ -22,6 +22,7 @@ package com.fangzhi.yao.fzcms.client;
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.profile.IClientProfile;
+import com.fangzhi.yao.fzcms.util.GsonUtil;
 import com.fangzhi.yao.fzcms.util.LogUtil;
 
 import java.util.Properties;
@@ -46,7 +47,7 @@ public class IotClient {
 			regionId = prop.getProperty("iot.regionId");
             domain = prop.getProperty("iot.domain");
             version = prop.getProperty("iot.version");
-
+            LogUtil.print("初始化配置信息：" + GsonUtil.GSON.toJson(prop));
 			IClientProfile profile = DefaultProfile.getProfile(regionId, accessKeyID, accessKeySecret);
 			DefaultProfile.addEndpoint(regionId, regionId, prop.getProperty("iot.productCode"),
 					prop.getProperty("iot.domain"));
