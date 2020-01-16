@@ -26,7 +26,6 @@ import com.fangzhi.yao.fzcms.util.GsonUtil;
 import com.fangzhi.yao.fzcms.util.LogUtil;
 
 import java.util.Properties;
-
 public class IotClient {
 	private static String accessKeyID;
 	private static String accessKeySecret;
@@ -37,11 +36,14 @@ public class IotClient {
 
 
     public static DefaultAcsClient getClient() {
+        LogUtil.print("DefaultAcsClient1");
 		DefaultAcsClient client = null;
 
 		Properties prop = new Properties();
 		try {
+            LogUtil.print("DefaultAcsClient2");
 			prop.load(Object.class.getResourceAsStream("/config.properties"));
+            LogUtil.print("DefaultAcsClient3");
 			accessKeyID = prop.getProperty("user.accessKeyID");
 			accessKeySecret = prop.getProperty("user.accessKeySecret");
 			regionId = prop.getProperty("iot.regionId");
@@ -51,9 +53,10 @@ public class IotClient {
 			IClientProfile profile = DefaultProfile.getProfile(regionId, accessKeyID, accessKeySecret);
 			DefaultProfile.addEndpoint(regionId, regionId, prop.getProperty("iot.productCode"),
 					prop.getProperty("iot.domain"));
+            LogUtil.print("DefaultAcsClient4");
 			// 初始化client
 			client = new DefaultAcsClient(profile);
-
+            LogUtil.print("DefaultAcsClient5");
 		} catch (Exception e) {
 			LogUtil.print("初始化client失败！exception:" + e.getMessage());
 		}
