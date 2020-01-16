@@ -18,6 +18,8 @@
 
 package com.fangzhi.yao.fzcms.util;
 
+import org.apache.log4j.Logger;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -27,7 +29,9 @@ import java.util.Date;
  * @version $Id: LogUtil.java,v 0.1 2016年6月2日 下午4:39:18  Exp $
  */
 public class LogUtil {
-    
+
+    private static Logger logger = Logger.getLogger(LogUtil.class);
+
     /** 是否打印日志 **/
     public static boolean   showLog      = true;
 
@@ -51,6 +55,7 @@ public class LogUtil {
             }
 
             System.out.println(fm.format(new Date()) + " - " + source + ":" + msg);
+            logger.info(fm.format(new Date()) + " - " + source + ":" + msg);
         }
     }
     
@@ -67,6 +72,7 @@ public class LogUtil {
              }
 
              System.err.println(fm.format(new Date()) + " - " + source + ":" + msg);
+             logger.info(fm.format(new Date()) + " - " + source + ":" + msg);
          }
     }
 
