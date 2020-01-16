@@ -22,16 +22,14 @@ package com.fangzhi.yao.fzcms.client;
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.profile.IClientProfile;
-import com.fangzhi.yao.fzcms.util.GsonUtil;
 import com.fangzhi.yao.fzcms.util.LogUtil;
-
-import java.util.Properties;
 public class IotClient {
-	private static String accessKeyID;
-	private static String accessKeySecret;
-	private static String regionId;
-    private static String domain;
-    private static String version;
+	private static String accessKeyID = "LTAI4FxtVfRpc1YRFfeay4Y4";
+	private static String accessKeySecret = "VZneeiCXGjMHIBT6McLzUr3BWEIulh";
+	private static String regionId = "cn-shanghai";
+	private static String productCode = "Iot";
+    private static String domain = "iot.cn-shanghai.aliyuncs.com";
+    private static String version = "2018-01-20";
 
 
 
@@ -39,20 +37,12 @@ public class IotClient {
         LogUtil.print("DefaultAcsClient1");
 		DefaultAcsClient client = null;
 
-		Properties prop = new Properties();
 		try {
             LogUtil.print("DefaultAcsClient2");
-			prop.load(Object.class.getResourceAsStream("/config.properties"));
+            IClientProfile profile = DefaultProfile.getProfile(regionId, accessKeyID, accessKeySecret);
             LogUtil.print("DefaultAcsClient3");
-			accessKeyID = prop.getProperty("user.accessKeyID");
-			accessKeySecret = prop.getProperty("user.accessKeySecret");
-			regionId = prop.getProperty("iot.regionId");
-            domain = prop.getProperty("iot.domain");
-            version = prop.getProperty("iot.version");
-            LogUtil.print("初始化配置信息：" + GsonUtil.GSON.toJson(prop));
-			IClientProfile profile = DefaultProfile.getProfile(regionId, accessKeyID, accessKeySecret);
-			DefaultProfile.addEndpoint(regionId, regionId, prop.getProperty("iot.productCode"),
-					prop.getProperty("iot.domain"));
+            DefaultProfile.addEndpoint(regionId, regionId, productCode,
+                    domain);
             LogUtil.print("DefaultAcsClient4");
 			// 初始化client
 			client = new DefaultAcsClient(profile);
