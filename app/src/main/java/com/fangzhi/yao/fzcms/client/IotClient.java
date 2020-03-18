@@ -34,19 +34,14 @@ public class IotClient {
 
 
     public static DefaultAcsClient getClient() {
-        LogUtil.print("DefaultAcsClient1");
 		DefaultAcsClient client = null;
 
 		try {
-            LogUtil.print("DefaultAcsClient2");
             IClientProfile profile = DefaultProfile.getProfile(regionId, accessKeyID, accessKeySecret);
-            LogUtil.print("DefaultAcsClient3");
             DefaultProfile.addEndpoint(regionId, regionId, productCode,
                     domain);
-            LogUtil.print("DefaultAcsClient4");
 			// 初始化client
 			client = new DefaultAcsClient(profile);
-            LogUtil.print("DefaultAcsClient5");
 		} catch (Exception e) {
 			LogUtil.print("初始化client失败！exception:" + e.getMessage());
 		}
